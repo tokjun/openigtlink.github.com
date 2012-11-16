@@ -17,6 +17,7 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 ## Acknowledgements
 ### Contributors
 * [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital
+* [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital
 * [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
 * [Csaba Csoma](http://www.cisst.org/wiki/User:Csoma), John's Hopkins University
 * Jack Blevins, Acoustic MedSystems, Inc.

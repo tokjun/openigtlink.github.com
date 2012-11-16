@@ -12,7 +12,7 @@ pygments: true
 title : OpenIGTLink
 tagline: Site Tagline
 author :
-  name : Brigham and Women's Hospital
+  name : The OpenIGTLink Community and Brigham and Women's Hospital
   email : tokuda@bwh.harvard.edu
   github : openigtlink
 #  twitter : username

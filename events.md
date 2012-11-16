@@ -30,4 +30,5 @@ description: ""
 
 ##2007
 * December 14, 2007 - [Middleware features discussion] (http://www.slicer.org/slicerWiki/index.php/Slicer/Features/Middleware) at [Slicer IGT Programming week](http://www.na-mic.org/Wiki/index.php?title=2007_December_Slicer_IGT_Programming).
+
 * June 27, 2007 - [Initial discussion about requirements] (http://www.cisst.org/wiki/MRI_robot/MIT_2007_06_27_Meeting)

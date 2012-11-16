@@ -57,7 +57,7 @@ group: navigation
 }
 #banner .downloads {
   float: right;
-  margin: 0 45px 0 0;
+  margin: 0 25px 30px 30px;
 }
 #banner .downloads span {
   float: left;
@@ -87,7 +87,7 @@ group: navigation
   right: 7px;
   top: 7px;
   display: block;
-  background: url(../images/octocat-logo.png);
+  background: url(images/octocat-logo.png);
 }
 </style>
 
@@ -101,6 +101,12 @@ group: navigation
     </ul>
   </div>
 </div>
+
+
+## Introduction
+A free open-source C/C++ OpenIGTLink library is available for your software developement. It provides a easy-to-use 
+C/C++ API to generate OpenIGTLink messages, and send them to another OpenIGTLink software over the network using TCP/IP.
+Please see [Tutorial page] (tutorials.html) to learn how easy it is to add OpenIGTLink interface to your application.
 
 
 ## Supported platforms
@@ -130,16 +136,16 @@ If you would like to have read/write access to participate the development, plea
     http://svn.na-mic.org/NAMICSandBox/trunk/OpenIGTLink
 
 ### Building the Library
-* [[OpenIGTLink/Library/Build | How to build the library]]
+* [How to build the library](library/build.html)
+
 
 ### Tutorial
-* [[OpenIGTLink/Library/Tutorial | The Open IGT Link Library Tutorial]]
-* [[OpenIGTLink/Approaches | What is the best way to build your OpenIGTLink application?]]
+* [The Open IGT Link Library Tutorial](library/tutorial.html)
 
 
 ### Acknowledgements
-*Attila Nagy has been helping the team to support Sun OS.
-*Dominique Belhachemi contributed to make the OpenIGTLink library available as a Debian Package.
+* Attila Nagy has been helping the team to support Sun OS.
+* Dominique Belhachemi contributed to make the OpenIGTLink library available as a Debian Package.
 
 ### Contact
 Please contact Junichi Tokuda at Brigham and Women's Hospital

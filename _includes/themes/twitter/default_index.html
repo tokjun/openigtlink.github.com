@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .hero-unit {
+        color:#f0f0f0;
+        text-shadow: 0.1em 0.1em 0.05em black;
+        background-image:url("assets/themes/twitter/img/bwh-amigo.jpg");
+      }
+      .hero-unit h1{
+        color:#f0f0f0;
+        text-shadow: 0.05em 0.05em 0.04em black;
+      }
+    </style>
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar">
+	<div class="navbar-inner">
+          <div class="container">
+            <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <ul class="nav">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include JB/pages_list %}
+            </ul>
+          </div>
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        {{ content }}
+      </div>
+
+      <hr>
+
+      <footer>
+	<p>&copy; The OpenIGTLink Community and <a href="http://www.brighamandwomens.org">Brigham and Women's Hospital</a> 2007-2012 </p>
+	<p>OpenIGTLink is supported by NIH <a href="http://ncigt.org">National Center for Image Guided Therapy</a> and <a href="http://na-mic.org">National Alliance for Medical Image Computing</a>.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+o

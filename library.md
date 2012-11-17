@@ -131,9 +131,7 @@ or
 
     git://github.com/openigtlink/OpenIGTLink.git
 
-If you would like to have read/write access to participate the development, please send your SSH public key to [[User:Tokuda| Junichi Tokuda]]. The source code is also available in the following Subversion repository.
-
-    http://svn.na-mic.org/NAMICSandBox/trunk/OpenIGTLink
+If you would like to have read/write access to participate the development, please send your SSH public key to [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda).
 
 ### Building the Library
 * [How to build the library](library/build.html)

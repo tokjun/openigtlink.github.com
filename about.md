@@ -14,8 +14,7 @@ OpenIGTLink provides a standardized mechanism for communications among computers
 
 OpenIGTLink is a set of digital messaging formats and rules (protocol) used for data exchange on a local area network (LAN). The specification of OpenIGTLink and its reference implementation, the OpenIGTLink Library, are available free of charge for any purpose including commercial use. An OpenIGTLink interface is available in popular medical image processing and visualization software 3D Slicer.
 
-## Acknowledgements
-### Contributors
+## Contributors
 * [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital
 * [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital
 * [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
@@ -29,10 +28,13 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 * Yuichiro Hayashi, Ph.D., Nagoya University, Japan
 * Atsushi Yamada, Ph.D., Nagoya Institute of Technology, Japan
 * [Insight Software Consortium] (http://www.insightsoftwareconsortium.org/)
-### Funding Support
-* Enabling Technologies for MRI-Guided Prostate Interventions funded by NIH (PI: [http://www.spl.harvard.edu/pages/People/ctempany Clare Tempany, MD])
+
+## Funding Support
+* NIH 5R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions
+* NIH 5R01CA138586: A New Method for Improved Targeting in Image-Guided Abdominal Interventions 
 * [National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/)
 * [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/)
+* [Surgical Navigation and Robotics Laboratory](http://snr.spl.harvard.edu/)
 * [Intelligent Surgical Instrument Project] (http://www.intelli-si.org) sponsored by The Ministry of International Trade and Industry, Japan
 
 ## Publications

@@ -10,9 +10,9 @@ This page is under development. Please refer [OpenIGTLink Protocol Version 2](ht
 
 ## OpenIGTLink version 2 Summary
 * The header format will not be changed. 
-* Simple querying mechanism is defined. See [[OpenIGTLink/ProtocolV2/Query| querying mechanism in version 2]].
+* Simple querying mechanism is defined. See [querying mechanism in version 2](protocols/v2_query.html).
 * The protocol version 2 continue to focus on message formats. Supporting tools (simulators and interfaces for specific applications e.g. 3D Slicer, Matlab) and transportation layer (use of UDP or other network communication middleware) should be discussed separately.
-* More information is available in [[OpenIGTLink/ProtocolV2/Summary| Version 2 Summary page]].
+* More information is available in [Version 2 Summary page](protocols/v2_summary.html).
 
 ## OpenIGTLink Protocol Rules
 * The OpenIGTLink protocol is a network communication protocol works in the Application Layer in the OSI model.
@@ -29,27 +29,27 @@ This page is under development. Please refer [OpenIGTLink Protocol Version 2](ht
 * [QTRANS](protocols/v2_qtransform.html) (formerly POSITION)
 * [POSITION](protocols/v2_position.html) (alias of QTRANSFORM)
 * [IMAGE](protocols/v2_image.html)
-* [STATUS](protocols/v2_status)
-* [CAPABILITY](protocols/v2_capability)
+* [STATUS](protocols/v2_status.html)
+* [CAPABILITY](protocols/v2_capability.html)
 
 ### New message types for image-guided surgery (IGS) systems
-* [IMGMETA](protocols/v2_imagemeta)
-* [LBMETA](protocols/v2_labelmeta)
-* [COLORT](protocols/v2_colortable)
-* [POINT](protocols/v2_point)
-* [TRAJ](protocols/v2_trajectory)
-* [TDATA](protocols/v2_trackingdata)
-* [QTDATA](protocols/v2_qtrackingdata)
+* [IMGMETA](protocols/v2_imagemeta.html)
+* [LBMETA](protocols/v2_labelmeta.html)
+* [COLORT](protocols/v2_colortable.html)
+* [POINT](protocols/v2_point.html)
+* [TRAJ](protocols/v2_trajectory.html)
+* [TDATA](protocols/v2_trackingdata.html)
+* [QTDATA](protocols/v2_qtrackingdata.html)
 
 ### New message types for other applications
-* [SENSOR](protocols/v2_sensordata)
-* [STRING](protocols/v2_string)
-* [NDARRAY](protocols/v2_ndarray)
-* [BIND](protocols/v2_bind)
-* [POLYDATA](protocols/v2_polydata)
+* [SENSOR](protocols/v2_sensordata.html)
+* [STRING](protocols/v2_string.html)
+* [NDARRAY](protocols/v2_ndarray.html)
+* [BIND](protocols/v2_bind.html)
+* [POLYDATA](protocols/v2_polydata.html)
 
 ### Other Information
-* [64-bit UNIT field in OpenIGTLink](protocols/v2_unit)
+* [64-bit UNIT field in OpenIGTLink](protocols/v2_unit.html)
 
 
 

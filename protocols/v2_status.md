@@ -5,7 +5,7 @@ header: Pages
 ---
 {% include JB/setup %}
 
-Summary
+## Summary
 
 The STATUS data type is used to notify the receiver about the current status of the sender.
 The data consist of status code in a 16-bit unsigned integer, sub code in a 64-bit integer,
@@ -73,7 +73,7 @@ optional description in the following data field.
 0. Exiting / shut down in progress<br />
 
 
-## GET_STATUS
+### GET_STATUS
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
 <tr>
@@ -83,15 +83,15 @@ optional description in the following data field.
 </td></tr>
 </table>
 
-## STT_STATUS
+### STT_STATUS
 
 N/A
 
-## STP_STATUS
+### STP_STATUS
 
 N/A
 
-## RTS_STATUS
+### RTS_STATUS
 
 N/A
 

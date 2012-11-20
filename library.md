@@ -103,47 +103,41 @@ group: navigation
 </div>
 
 
-## Introduction
+
+## OpenIGTLink Library (C/C++)
+### Introduction
 A free open-source C/C++ OpenIGTLink library is available for your software developement. It provides a easy-to-use 
 C/C++ API to generate OpenIGTLink messages, and send them to another OpenIGTLink software over the network using TCP/IP.
 Please see [Tutorial page] (tutorials.html) to learn how easy it is to add OpenIGTLink interface to your application.
 
 
-## Supported platforms
+### Supported platforms
 * Microsoft Windows (tested on XP and 7 (32-bit and 64-bit))
 * Linux (Tested on Ubuntu 10.10 (32-bit and 64-bit))
 * Mac OS X 10.5/6/7 (Intel 64-bit)
 * Sun Solaris (GNU CC and Sun CC) (tested on Solaris 8 and 10) 
 * QNX (Not tested well -- feedbacks from QNX users are greatly appreciated)
 
-## License
+### License
 This code is distributed under the [http://www.opensource.org/licenses/bsd-license.php new BSD License].
 
-## Instruction
-
-### Downloading Source Code with Example Programs
-
-Since December 2011, the source code repository is hosted by GitHub. The code can be obtained from:
-
-    git@github.com:openigtlink/OpenIGTLink.git
-
-or
-
-    git://github.com/openigtlink/OpenIGTLink.git
-
-If you would like to have read/write access to participate the development, please send your SSH public key to [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda).
-
-### Building the Library
+### Instructions/Tutorials
 * [How to build the library](library/build.html)
-
-
-### Tutorial
 * [The Open IGT Link Library Tutorial](library/tutorial.html)
-
 
 ### Acknowledgements
 * Attila Nagy has been helping the team to support Sun OS.
 * Dominique Belhachemi contributed to make the OpenIGTLink library available as a Debian Package.
 
-### Contact
-Please contact Junichi Tokuda at Brigham and Women's Hospital
+<hr/>
+
+## Java OpenIGTLink Library Maintained by WPI
+
+Java implementation of OpenIGTLink library is available. The code is maintained by Worcester Polytechnic Institute. See:
+
+* [http://aimlab.wpi.edu/research/projects/OpenIGTLink_Interface](http://aimlab.wpi.edu/research/projects/OpenIGTLink_Interface)
+* [http://code.google.com/p/igtlink4j/](http://code.google.com/p/igtlink4j/)
+
+for more detail.
+
+

@@ -15,27 +15,51 @@ OpenIGTLink provides a standardized mechanism for communications among computers
 OpenIGTLink is a set of digital messaging formats and rules (protocol) used for data exchange on a local area network (LAN). The specification of OpenIGTLink and its reference implementation, the OpenIGTLink Library, are available free of charge for any purpose including commercial use. An OpenIGTLink interface is available in popular medical image processing and visualization software 3D Slicer.
 
 ## Contributors
-* [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital
-* [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital
-* [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
-* [Csaba Csoma](http://www.cisst.org/wiki/User:Csoma), John's Hopkins University
-* Jack Blevins, Acoustic MedSystems, Inc.
-* Patrick Cheng, Ph.D., Georgetown University
-* [Haying Liu](http://www.spl.harvard.edu/pages/People/hliu), Brigham and Women's Hospital
-* [Kiyoyuki Chinzei, Ph.D.](http://staff.aist.go.jp/k.chinzei/), National Institute of Advanced Industrial Science and Technology, Japan
+(Alphabetical order)
 * [Jumpei Arata, Ph.D.](http://arata.web.nitech.ac.jp/index.html), Nagoya Institute of Technology, Japan
-* [Steve Pieper, Ph.D.](http://www.spl.harvard.edu/pages/People/pieper), Isomics, Inc.
+* [Laurent Chauvin, M.S.](http://www.spl.harvard.edu/pages/People/lchauvin), Brigham and Women's Hospital
+* [Kiyoyuki Chinzei, Ph.D.](http://staff.aist.go.jp/k.chinzei/), National Institute of Advanced Industrial Science and Technology, Japan
+* Patrick Cheng, Ph.D., Georgetown University
+* [Jan Egger, Ph.D., Ph.D](http://www.spl.harvard.edu/pages/People/egger), Brigham and Women's Hospital
+* [Gabor Fichtinger, Ph.D.](http://research.cs.queensu.ca/~gabor/), Queen's University, Canada
+* [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
+* [Alex Golby, M.D.](http://golbylab.bwh.harvard.edu/people/golbyAlexandra.html), Brigham and Women's Hospital
+* [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital
 * Yuichiro Hayashi, Ph.D., Nagoya University, Japan
-* Atsushi Yamada, Ph.D., Nagoya Institute of Technology, Japan
+* [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
+* [Iulian I. Iordachita](https://www.lcsr.jhu.edu/User:Iiordachita/CV), Johns Hopkins University
+* [Tina Kapur, Ph.D.](http://www.spl.harvard.edu/pages/People/tkapur), Brigham and Women's Hospital
+* [Peter Kazanzides, Ph.D.](http://www.cisst.org/~pkaz/), Johns Hopkins University
+* [Ron Kikinis, M.D.](http://www.spl.harvard.edu/pages/People/kikinis), Brigham and Women's Hospital
+* [Andras Lasso, Ph.D.](http://perk.cs.queensu.ca/profiles/lasso), Queen's University, Canada
+* Andre Charles Legendre
+* [Haying Liu](http://www.spl.harvard.edu/pages/People/hliu), Brigham and Women's Hospital
+* [Isaiah Norton](http://golbylab.bwh.harvard.edu/people/nortonIsaiah.html), Brigham and Women's Hospital
+* [Ferenc Jolesz, M.D.](http://www.spl.harvard.edu/pages/People/jolesz), Brigham and Women's Hospital
+* [Steve Pieper, Ph.D.](http://www.spl.harvard.edu/pages/People/pieper), Isomics, Inc.
+* [Clare M. Tempany, M.D.](http://www.spl.harvard.edu/pages/People/ctempany), Brigham and Women's Hospital
+* [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital (Lead Developer)
+* [Tamas Ungi, M.D., Ph.D.](http://perk.cs.queensu.ca/profiles/ungi), Queen's University, Canada
+* [Atsushi Yamada, Ph.D.](http://www.spl.harvard.edu/pages/People/ayamada), Brigham and Women's Hospital
+
+## Institutes, Organizations
+* [National Center for Image Guided Therapy](http://ncigt.org)
+* [National Alliance for Medical Image Computing](http://na-mic.org)
+* [Surgical Navigation and Robotics Laboratory, Brigham and Women's Hospital](http://snr.spl.harvard.edu)
+* [Surgical Planning Laboratory, Brigham and Women's Hospital](http://www.spl.harvard.edu)
+* [Automation and Interventional Medicine (AIM) Robotics Laboratory, Worcester Polytechnic Institute](http://aimlab.wpi.edu)
+* [Laboratory for Percutaneous Surgery, Queen's University, Canada](http://perk.cs.queensu.ca)
 * [Insight Software Consortium] (http://www.insightsoftwareconsortium.org/)
+* [Computer-Integrated Surgical Systems and Technology, Johns Hopkins University](http://cisst.org/)
+* [Robotics and Automation Laboratory, Nagoya Institute of Technology, Japan](http://ral.web.nitech.ac.jp/members.html)
 
 ## Funding Support
-* NIH 5R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions
-* NIH 5R01CA138586: A New Method for Improved Targeting in Image-Guided Abdominal Interventions 
-* [National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/)
-* [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/)
-* [Surgical Navigation and Robotics Laboratory](http://snr.spl.harvard.edu/)
-* [Intelligent Surgical Instrument Project] (http://www.intelli-si.org) sponsored by The Ministry of International Trade and Industry, Japan
+* NIH 5R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions (PI: Clare M. Tempany)
+* NIH 5R01CA138586: A New Method for Improved Targeting in Image-Guided Abdominal Interventions (PI: Nobuhiko Hata)
+* [National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/) (PI: Ferenc A. Jolesz / Clare M. Tempany)
+* [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/) (PI: Ron Kikinis)
+* [Intelligent Surgical Instrument Project] (http://www.intelli-si.org) sponsored by The Ministry of International Trade and Industry, Japan (PI: Makoto Hashizume)
+
 
 ## Publications
 1. Tokuda J, Fischer GS, Papademetris X, Yaniv Z, Ibanez L, Cheng P, Liu H, Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G, Tempany CM, Hata N. [OpenIGTLink: an open network protocol for image-guided therapy environment]([http://www.spl.harvard.edu/publications/item/view/1709). [Int J Med Robot](http://www3.interscience.wiley.com/journal/112094293/home). 2009 Dec;5(4):423-34.

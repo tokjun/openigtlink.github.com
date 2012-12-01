@@ -15,31 +15,30 @@ OpenIGTLink provides a standardized mechanism for communications among computers
 OpenIGTLink is a set of digital messaging formats and rules (protocol) used for data exchange on a local area network (LAN). The specification of OpenIGTLink and its reference implementation, the OpenIGTLink Library, are available free of charge for any purpose including commercial use. An OpenIGTLink interface is available in popular medical image processing and visualization software 3D Slicer.
 
 ## Contributors
-(Alphabetical order)
-* [Jumpei Arata, Ph.D.](http://arata.web.nitech.ac.jp/index.html), Nagoya Institute of Technology, Japan
-* [Laurent Chauvin, M.S.](http://www.spl.harvard.edu/pages/People/lchauvin), Brigham and Women's Hospital
-* [Kiyoyuki Chinzei, Ph.D.](http://staff.aist.go.jp/k.chinzei/), National Institute of Advanced Industrial Science and Technology, Japan
-* Patrick Cheng, Ph.D., Georgetown University
-* [Jan Egger, Ph.D., Ph.D](http://www.spl.harvard.edu/pages/People/egger), Brigham and Women's Hospital
-* [Gabor Fichtinger, Ph.D.](http://research.cs.queensu.ca/~gabor/), Queen's University, Canada
-* [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
-* [Alex Golby, M.D.](http://golbylab.bwh.harvard.edu/people/golbyAlexandra.html), Brigham and Women's Hospital
+* [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital (Lead Developer)
 * [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital
-* Yuichiro Hayashi, Ph.D., Nagoya University, Japan
-* [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
-* [Iulian I. Iordachita](https://www.lcsr.jhu.edu/User:Iiordachita/CV), Johns Hopkins University
-* [Tina Kapur, Ph.D.](http://www.spl.harvard.edu/pages/People/tkapur), Brigham and Women's Hospital
-* [Peter Kazanzides, Ph.D.](http://www.cisst.org/~pkaz/), Johns Hopkins University
+* [Clare M. Tempany, M.D.](http://www.spl.harvard.edu/pages/People/ctempany), Brigham and Women's Hospital
+* [Kiyoyuki Chinzei, Ph.D.](http://staff.aist.go.jp/k.chinzei/), National Institute of Advanced Industrial Science and Technology, Japan
 * [Ron Kikinis, M.D.](http://www.spl.harvard.edu/pages/People/kikinis), Brigham and Women's Hospital
+* [Ferenc Jolesz, M.D.](http://www.spl.harvard.edu/pages/People/jolesz), Brigham and Women's Hospital
+* [Tina Kapur, Ph.D.](http://www.spl.harvard.edu/pages/People/tkapur), Brigham and Women's Hospital
+* [Steve Pieper, Ph.D.](http://www.spl.harvard.edu/pages/People/pieper), Isomics, Inc.
+* [Isaiah Norton](http://golbylab.bwh.harvard.edu/people/nortonIsaiah.html), Brigham and Women's Hospital
+* [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
+* [Gabor Fichtinger, Ph.D.](http://research.cs.queensu.ca/~gabor/), Queen's University, Canada
+* [Iulian I. Iordachita](https://www.lcsr.jhu.edu/User:Iiordachita/CV), Johns Hopkins University
+* [Tamas Ungi, M.D., Ph.D.](http://perk.cs.queensu.ca/profiles/ungi), Queen's University, Canada
 * [Andras Lasso, Ph.D.](http://perk.cs.queensu.ca/profiles/lasso), Queen's University, Canada
+* [Laurent Chauvin, M.S.](http://www.spl.harvard.edu/pages/People/lchauvin), Brigham and Women's Hospital
+* [Luis Ibanez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
+* [Jumpei Arata, Ph.D.](http://arata.web.nitech.ac.jp/index.html), Nagoya Institute of Technology, Japan
+* Patrick Cheng, Ph.D., Georgetown University
+* [Peter Kazanzides, Ph.D.](http://www.cisst.org/~pkaz/), Johns Hopkins University
+* [Jan Egger, Ph.D., Ph.D](http://www.spl.harvard.edu/pages/People/egger), Brigham and Women's Hospital
+* [Alex Golby, M.D.](http://golbylab.bwh.harvard.edu/people/golbyAlexandra.html), Brigham and Women's Hospital
 * Andre Charles Legendre
 * [Haying Liu](http://www.spl.harvard.edu/pages/People/hliu), Brigham and Women's Hospital
-* [Isaiah Norton](http://golbylab.bwh.harvard.edu/people/nortonIsaiah.html), Brigham and Women's Hospital
-* [Ferenc Jolesz, M.D.](http://www.spl.harvard.edu/pages/People/jolesz), Brigham and Women's Hospital
-* [Steve Pieper, Ph.D.](http://www.spl.harvard.edu/pages/People/pieper), Isomics, Inc.
-* [Clare M. Tempany, M.D.](http://www.spl.harvard.edu/pages/People/ctempany), Brigham and Women's Hospital
-* [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital (Lead Developer)
-* [Tamas Ungi, M.D., Ph.D.](http://perk.cs.queensu.ca/profiles/ungi), Queen's University, Canada
+* Yuichiro Hayashi, Ph.D., Nagoya University, Japan
 * [Atsushi Yamada, Ph.D.](http://www.spl.harvard.edu/pages/People/ayamada), Brigham and Women's Hospital
 
 ## Institutes, Organizations

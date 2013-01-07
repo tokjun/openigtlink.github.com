@@ -31,7 +31,7 @@ software development using the C/C++ language. The library is available free of 
 
 
 ## Integrating Your Matlab/Octave Script with 3D Slicer Using OpenIGTLink
-> Web page: [OpenIGTLink Matlab](http://www.na-mic.org/Wiki/index.php/OpenIGTLink/Matlab)
+> Web page: [OpenIGTLink Matlab](tutorials/matlabigtl.html)
 This tutorial shows how to use the OpenIGTLink interface for Matlab/Octave. The interface allows
 your Matlab script to exchange linear transform and image data with 3D Slicer over the network.
 

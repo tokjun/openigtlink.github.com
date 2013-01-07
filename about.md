@@ -65,6 +65,6 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 1. Arata J, Kozuka H, Kim HW, Takesue N, Vladimirov B, Sakaguchi M, Tokuda J, Hata N, Chinzei K, Fujimoto H. Open core control software for surgical robots. Int J Comput Assist Radiol Surg. 2010 May;5(3):211-20. Epub 2009 Jul 28.
 1. Tokuda J, Fischer GS, DiMaio SP, Gobbi DG, Csoma C, Mewes PW, Fichtinger G, Tempany CM, Hata N. Integrated navigation and control software system for MRI-guided robotic prostate interventions. Comput Med Imaging Graph. 2010 Jan;34(1):3-8. Epub 2009 Aug 20.
 1. Elhawary H, Liu H, Patel P, Norton I, Rigolo L, Papademetris X, Hata N, Golby AJ. Intraoperative real-time querying of white matter tracts during frameless stereotactic neuronavigation. Neurosurgery. 2011 Feb;68(2):506-16.
-1. Egger J, Tokuda J, Chauvin L, Freisleben B, Nimsky C, Kapur T, Wells W. Integration of the OpenIGTLink Network Protocol for image-guided therapy with the medical platform MeVisLab,  Int J Med Robot Article first published [online] (http://onlinelibrary.wiley.com/doi/10.1002/rcs.1415/abstract DOI: 10.1002/rcs.1415): 28 FEB 2012.
+1. Egger J, Tokuda J, Chauvin L, Freisleben B, Nimsky C, Kapur T, Wells W. Integration of the OpenIGTLink Network Protocol for image-guided therapy with the medical platform MeVisLab,  Int J Med Robot Article first published [online] (http://onlinelibrary.wiley.com/doi/10.1002/rcs.1415/abstract): 28 FEB 2012.
 
 

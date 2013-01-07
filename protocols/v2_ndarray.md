@@ -73,10 +73,10 @@ N / A
 ### Memory layout of DATA field
 Like multi-dimensional array in C/C++, DATA field is laid out in sequentially in a byte stream. For example, if the value of DATA is defined by:
 
-    char data[3][3] = {{1, 2, 3},
+    char data[3][3] = { {1, 2, 3},
                       {4, 5, 6},
                       {7, 8, 9}
-                    };
+                      };
 
 The layout in the byte stream can be visualized as follows:
 

@@ -110,4 +110,4 @@ Once you find '''Makefile''' in the directory, run make. Several files with exte
 
 ## Contact
 If you have any question, please subscribe to OpenIGTLink ML.
-You may also contact to [[User:Tokuda|Junichi Tokuda]] for further information.
+You may also contact to [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda) for further information.

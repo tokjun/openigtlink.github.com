@@ -209,7 +209,7 @@ POLYDATA is used to transfer 3D polygonal data. The message format is designed b
   * 8-15 bit: Number of components -- must be 3 for Vectors and Normal, 9 for Tensor, 4 for RGBA.
 * Maximum length for attribute name is 255
 * If there are a pair of scalar and RGBA data with the same name and type (either POINT or CELL), those are used as scalar values and a look up table.
-  * elements in RGBA data must be in the rage of [0.0, 1.0]
+  * elements in RGBA data must be in the rage of \[0.0, 1.0\]
 
 ### GET_POLYDATA
 

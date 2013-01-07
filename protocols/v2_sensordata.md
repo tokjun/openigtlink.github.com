@@ -127,7 +127,7 @@ The TDATA message type is implemented in the following source code.
 
 ### Sending 3-axis troque
 
-A device with 3-axis torque (N*m) sensor is sending data to a data logger program. The following table shows example data format to send 3-axis torque:
+A device with 3-axis torque (N\*m) sensor is sending data to a data logger program. The following table shows example data format to send 3-axis torque:
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
 

@@ -73,14 +73,13 @@ No option needs to be edited in the ccmake interface. Simply press 'c' twice and
 Once the files are generated, open "OpenIGTLink.xcodeproj" from XCode. Before building OpenIGTLink for iOS, we generate binary for Mac OS X.
 At the left-top of XCode window, choose "OpenIGTLink > My Mac 64-bit" as a target from a pull down-menu and press "Run" just next to the pull-down. If everything goes well, the status window at the center of the window top shows "Build ALL_BUILD: Succeeded."
 
-[[Image:OpenIGTLink_Library_Build_iOS_1.png]]
-
+<img src="http://www.na-mic.org/Wiki/images/1/1b/OpenIGTLink_Library_Build_iOS_1.png"></img>
 
 The next step is to build a binary for iOS simulator. Choose "OpenIGTLink" from "PROJECT" column and change Base SDK to "iOS 5"  in Build settings.
 
-[[Image:OpenIGTLink_Library_Build_iOS_2.png|600px]]
+<img src="http://www.na-mic.org/Wiki/images/b/b6/OpenIGTLink_Library_Build_iOS_2.png" width="600"></img>
 
-[[Image:OpenIGTLink_Library_Build_iOS_3.png|600px]]
+<img src="http://www.na-mic.org/Wiki/images/6/6a/OpenIGTLink_Library_Build_iOS_3.png" width="600"></img>
 
 After making sure that the target is set to "OpenIGTLink > iPhone 5.0 Simulator," press run button to start compilation process. If everything goes well, the binary file "libOpenIGTLink.a" is stored in IGTL_BINARY_DIR/bin/Debug. It may be a good idea to change the name of "Debug" directory to something like "Sim5.0Debug", since you will need to have also a binary for actual device and switch between two binaries (or four binaries if you build Release version as well).
 
@@ -90,7 +89,7 @@ To use the binary file from your iPhone program, specify the following directori
 * IGTL_BINARY_DIR/
 Also, add the binary file ("libOpenIGTLink.a") under a new group "OpenIGTLink" in the navigation area in on the left of XCode Window.
 
-[[Image:OpenIGTLink_Library_Build_iOS_4.png]]
+<img src="http://www.na-mic.org/Wiki/images/9/9a/OpenIGTLink_Library_Build_iOS_4.png"></img>
 
 
 Reference

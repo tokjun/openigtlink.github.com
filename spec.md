@@ -27,7 +27,7 @@ This page is under development. Please refer [OpenIGTLink Protocol Version 2](ht
 ### Message types inherited from version 1
 * [TRANSFORM](protocols/v2_transform.html)
 * [QTRANS](protocols/v2_qtransform.html) (formerly POSITION)
-* [POSITION](protocols/v2_position.html) (alias of QTRANSFORM)
+* [POSITION](protocols/v2_position.html) (alias of QTRANS)
 * [IMAGE](protocols/v2_image.html)
 * [STATUS](protocols/v2_status.html)
 * [CAPABILITY](protocols/v2_capability.html)

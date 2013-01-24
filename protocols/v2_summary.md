@@ -93,6 +93,7 @@ The following tables show lists of message types available in version 2.
 </td><td style="width:10%; background:#88A8FF">RTS message
 </td><td style="width:60%; background:#88A8FF">Description
 </td></tr>
+<!--
 <tr>
 <td style="width:25%; background:#F0F8FF"> REXEC
 </td><td>GET_REXEC
@@ -101,12 +102,13 @@ The following tables show lists of message types available in version 2.
 </td><td>RTS_REXEC
 </td><td align="left">Remote procedure execution. In most case, the REXEC type is issued as a query (GET_REXEC) and obtain a RTS_REXEC message that contains a list of result data.
 </td></tr>
+-->
 <tr>
-<td style="width:25%; background:#F0F8FF"> AARRAY
-</td><td>GET_AARRAY
-</td><td>STT_AARRAY
-</td><td>STP_AARRAY
-</td><td>RTS_AARRAY
+<td style="width:25%; background:#F0F8FF"> NDARRAY
+</td><td>GET_NDARRAY
+</td><td>STT_NDARRAY
+</td><td>STP_NDARRAY
+</td><td>RTS_NDARRAY
 </td><td align="left">Associative array to transfer a set of values with key names.
 </td></tr>
 </table>

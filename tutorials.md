@@ -13,7 +13,7 @@ integrated OpenIGTLink interface that allows you to exchange various types of da
 image data with external tools. The 3D Slicer training page provides a series of courses for learning how to use Slicer4.
 The portfolio contains self-guided presentation and sample data sets.
 Reference manual style documentation for Slicer4 can be found on the Slicer Wiki.
-Contact [Sonia Pujol, Ph.D.](http://lmi.bwh.harvard.edu/~spujol/), if you have any question regarding 3D Slicer tutorial.
+Contact [Sonia Pujol, Ph.D.](http://www.spl.harvard.edu/pages/People/spujol), if you have any question regarding 3D Slicer tutorial.
 
 
 ## Using OpenIGTLink from 3D Slicer Python Interface

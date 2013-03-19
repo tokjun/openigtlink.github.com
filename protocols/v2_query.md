@@ -15,7 +15,7 @@ In OpenIGTLink version 2, special prefixes GET_, STT_, STP_, and RTS_ are used i
 
 ## STT_ and STP_ prefixes: Control data flow
 
-"STT_&lt;datatype&gt;" and "STP_&lt;datatype&gt;" query message is used to request to start and stop sending a series of messages. The receiver of "STT_&lt;datatype&gt;" message must return "RTS_&lt;datatype&gt;" message with the same name as the query message to notify that the receiver receives the query. Formats of "STT_&lt;datatype&gt;", "STP_&lt;datatype&gt;" and "RTS_&lt;datatype&gt;" may be defined per data type, if necessary.
+"STT_&lt;datatype&gt;" and "STP_&lt;datatype&gt;" query message is used to request to start and stop sending a series of messages. The receiver of "STT_&lt;datatype&gt;" or "STP_&lt;datatype&gt;" message must return "RTS_&lt;datatype&gt;" message with the same name as the query message to notify that the receiver receives the query. Formats of "STT_&lt;datatype&gt;", "STP_&lt;datatype&gt;" and "RTS_&lt;datatype&gt;" may be defined per data type, if necessary.
 
 
 

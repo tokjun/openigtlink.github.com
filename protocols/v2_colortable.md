@@ -13,7 +13,7 @@ COLORT is used to transfer a color table.
 
 ### COLORT
 
-To get the COLORTABLE, GET_COLORT is used with the Id in the device name field.
+To get the COLORT, GET_COLORT is used with the Id in the device name field.
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
 

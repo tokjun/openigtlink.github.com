@@ -7,9 +7,14 @@ description: ""
 {% include JB/setup %}
 
 ## Upcoming
-* January 7-11, 2013 - [AHM, EAB, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2013)
+* June 26-29, 2013 - [3D Slicer hands-on workshop on Image-Guided Therapy and joint Slicer/CTK/MITK workshop, CARS 2013, Heidelberg, Germany](http://www.na-mic.org/Wiki/index.php/CARS2013)
+* April 10-11, 2013 - [Slicer Ultrasound workshop, Iwate, Japan](http://www.na-mic.org/Wiki/index.php/Iwate_2013_Training)
+* April 9, 2013 - [Slicer Workshop, Tokyo, Japan](http://www.na-mic.org/Wiki/index.php/Tokyo_2013_Training)
 
 ## Past
+### 2013
+* January 7-11, 2013 - [AHM, EAB, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2013)
+
 ### 2012
 * June 30, 2012 - [NA-MIC IGT Workshop, CARS 2012](http://www.na-mic.org/Wiki/index.php/CARS_2012)
 * June 18-22, 2012 - [Summer Project Week at MIT; Summer 2012 Tutorial Contest](http://www.na-mic.org/Wiki/index.php/2012_Summer_Project_Week)

@@ -43,14 +43,14 @@ Inheritance diagram for igtl::ObjectFactoryBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1ObjectFactoryBase__inherit__graph.png" border="0" usemap="#igtl_1_1ObjectFactoryBase_inherit__map" alt="Inheritance graph"/></div>
 <map name="igtl_1_1ObjectFactoryBase_inherit__map" id="igtl_1_1ObjectFactoryBase_inherit__map">
-<area shape="rect" id="node7" href="classigtl_1_1ObjectFactory.html" title="Create instances of a class." alt="" coords="4,238,163,266"/><area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="42,83,125,111"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="27,6,140,34"/></map>
+<area shape="rect" id="node7" href="classigtl_1_1ObjectFactory.html" title="Create instances of a class." alt="" coords="6,229,156,256"/><area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="41,80,121,107"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="28,5,135,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for igtl::ObjectFactoryBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1ObjectFactoryBase__coll__graph.png" border="0" usemap="#igtl_1_1ObjectFactoryBase_coll__map" alt="Collaboration graph"/></div>
 <map name="igtl_1_1ObjectFactoryBase_coll__map" id="igtl_1_1ObjectFactoryBase_coll__map">
-<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="51,179,135,207"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="37,99,149,127"/><area shape="rect" id="node6" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,6,181,34"/></map>
+<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="48,173,128,200"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="35,96,141,123"/><area shape="rect" id="node6" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,5,171,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classigtl_1_1ObjectFactoryBase-members.html">List of all members.</a></p>
@@ -134,7 +134,7 @@ Protected Attributes</h2></td></tr>
 <p><a class="el" href="classigtl_1_1ObjectFactoryBase.html" title="Create instances of classes using an object factory.">ObjectFactoryBase</a> is used to create igtl objects. The base class <a class="el" href="classigtl_1_1ObjectFactoryBase.html" title="Create instances of classes using an object factory.">ObjectFactoryBase</a> contains a static method <a class="el" href="classigtl_1_1ObjectFactoryBase.html#a53821fe383aed964b5d0d5f3cc9b5b73">CreateInstance()</a> that is used to create igtl objects from the list of registerd <a class="el" href="classigtl_1_1ObjectFactoryBase.html" title="Create instances of classes using an object factory.">ObjectFactoryBase</a> sub-classes. The first time <a class="el" href="classigtl_1_1ObjectFactoryBase.html#a53821fe383aed964b5d0d5f3cc9b5b73">CreateInstance()</a> is called, all dll's or shared libraries in the environment variable IGTL_AUTOLOAD_PATH are loaded into the current process. The C function igtlLoad is called on each dll. igtlLoad should return an instance of the factory sub-class implemented in the shared library. IGTL_AUTOLOAD_PATH is an environment variable containing a colon separated (semi-colon on win32) list of paths.</p>
 <p>This can be use to overide the creation of any object in IGTL. </p>
 
-<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00065">65</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00063">63</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
 </div><hr/><h2>Member Typedef Documentation</h2>
 <a class="anchor" id="a02b3c7086a679ea2feaf9a26ca11d576"></a>
 <div class="memitem">
@@ -148,7 +148,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#accb2c6c135bf60b23708ad72dc8d9ff2">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00072">72</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00070">70</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
 
 </div>
 </div>
@@ -164,7 +164,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#aba67d0c6935f279b95dc44e61bb6a0bb">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00071">71</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00069">69</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
 
 </div>
 </div>
@@ -181,7 +181,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#acf85bce020b85a1ecc25aa3744e13dd8">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00069">69</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00067">67</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#a4a64341a899828f772638f490088758d">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00070">70</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObjectFactoryBase_8h_source.html#l00068">68</a> of file <a class="el" href="igtlObjectFactoryBase_8h_source.html">igtlObjectFactoryBase.h</a>.</p>
 
 </div>
 </div>
@@ -347,7 +347,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Create and return an instance of the named igtl object. Each loaded <a class="el" href="classigtl_1_1ObjectFactoryBase.html" title="Create instances of classes using an object factory.">ObjectFactoryBase</a> will be asked in the order the factory was in the IGTL_AUTOLOAD_PATH. After the first factory returns the object no other factories are asked. </p>
 
-<p>Referenced by <a class="el" href="igtlObjectFactory_8h_source.html#l00065">igtl::ObjectFactory&lt; T &gt;::Create()</a>.</p>
+<p>Referenced by <a class="el" href="igtlObjectFactory_8h_source.html#l00063">igtl::ObjectFactory&lt; T &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the name of this class as a string. Used by the object factory (implemented in <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">New()</a>) to instantiate objects of a named type. Also used for debugging and other output information. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00086">86</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00084">84</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -766,7 +766,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Gets the reference count on this object. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00112">112</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00110">110</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -816,7 +816,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00118">118</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -844,7 +844,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00114">114</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -936,7 +936,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">igtl::LightObject</a>.</p>
 
-<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00084">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
+<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00082">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
 
 </div>
 </div>
@@ -1259,7 +1259,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00118">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
+<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00114">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
 
 </div>
 </div>
@@ -1385,7 +1385,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Number of uses of this object by other objects. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00133">133</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00131">131</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -1408,7 +1408,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Mutex lock to protect modification to the reference count </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00136">136</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00134">134</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -1417,7 +1417,7 @@ Protected Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr><address><small>
-Generated at Tue Dec 25 2012 05:54:31 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
+Generated at Fri Mar 22 2013 16:03:05 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
 src="http://www.stack.nl/~dimitri/doxygen/doxygen.png" alt="doxygen"
 align="middle" border=0 width=104 height=31>
 </a> 1.8.1.1 written by <a href="mailto:dimitri@stack.nl">Dimitri van Heesch</a>,

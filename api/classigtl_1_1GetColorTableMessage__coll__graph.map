@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="32,259,161,287"/>
-<area shape="rect" id="node4" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="55,179,139,207"/>
-<area shape="rect" id="node6" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="41,99,153,127"/>
-<area shape="rect" id="node8" href="$classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="9,6,185,34"/>
+<area shape="rect" id="node2" href="$classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="31,251,157,277"/>
+<area shape="rect" id="node4" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="55,173,135,200"/>
+<area shape="rect" id="node6" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="41,96,148,123"/>
+<area shape="rect" id="node8" href="$classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="11,5,177,32"/>
 </map>

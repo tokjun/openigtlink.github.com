@@ -40,6 +40,9 @@
 <li>m_BodyType
 : <a class="el" href="classigtl_1_1MessageBase.html#a17ea9dd73fe046861e9ed9311e1b7e0c">igtl::MessageBase</a>
 </li>
+<li>m_Buffer
+: <a class="el" href="classigtl_1_1MessageHandler.html#a9c82d007b621ef39ff0e0841db9c5ae8">igtl::MessageHandler</a>
+</li>
 <li>m_ChildMessages
 : <a class="el" href="classigtl_1_1BindMessageBase.html#abc885fa399cdee5db15927db0d5a7a38">igtl::BindMessageBase</a>
 </li>
@@ -52,12 +55,21 @@
 <li>m_ColorTableHeader
 : <a class="el" href="classigtl_1_1ColorTableMessage.html#acfd8ce240f682f0460804405f13c22ee">igtl::ColorTableMessage</a>
 </li>
+<li>m_ConfigurationUpdated
+: <a class="el" href="classigtl_1_1SessionManager.html#ac015bcdec5bf67b6d99a8f7976ab6a11">igtl::SessionManager</a>
+</li>
 <li>m_CoordinateName
 : <a class="el" href="classigtl_1_1StartQuaternionTrackingDataMessage.html#acb9c9b0ce499dbd66bd32b32d4fac9a4">igtl::StartQuaternionTrackingDataMessage</a>
 , <a class="el" href="classigtl_1_1StartTrackingDataMessage.html#adb085a66bb0579445ee018d21f79467a">igtl::StartTrackingDataMessage</a>
 </li>
 <li>m_CreateObject
 : <a class="el" href="structigtl_1_1ObjectFactoryBase_1_1OverrideInformation.html#a7f5ebc2547ab74488566cd573b040a2b">igtl::ObjectFactoryBase::OverrideInformation</a>
+</li>
+<li>m_CurrentMessageHandler
+: <a class="el" href="classigtl_1_1SessionManager.html#a686333cf41e8a7064195e0ab3728e3c1">igtl::SessionManager</a>
+</li>
+<li>m_CurrentReadIndex
+: <a class="el" href="classigtl_1_1SessionManager.html#a50890b5ba28884ac5f1616c4616f8f01">igtl::SessionManager</a>
 </li>
 <li>m_DefaultBodyType
 : <a class="el" href="classigtl_1_1MessageBase.html#af8f7d362b0c726ca6b726447c138846f">igtl::MessageBase</a>
@@ -91,6 +103,13 @@
 </li>
 <li>m_Header
 : <a class="el" href="classigtl_1_1MessageBase.html#a5945b3c9e5b4d5cd22201c744378d710">igtl::MessageBase</a>
+, <a class="el" href="classigtl_1_1SessionManager.html#a69bc7b1d2019614baf4a1f3bc59baa8f">igtl::SessionManager</a>
+</li>
+<li>m_HeaderDeserialized
+: <a class="el" href="classigtl_1_1SessionManager.html#ac0513cabce98d2fb25efe7b49f2f9ab5">igtl::SessionManager</a>
+</li>
+<li>m_Hostname
+: <a class="el" href="classigtl_1_1SessionManager.html#ae26f17ceb34139a1ef893fe33e47ab8e">igtl::SessionManager</a>
 </li>
 <li>m_Image
 : <a class="el" href="classigtl_1_1ImageMessage.html#a53b6e5d9c4eee2791f3a9d2f6e2299ec">igtl::ImageMessage</a>
@@ -127,8 +146,14 @@
 <li>m_Matrix
 : <a class="el" href="classigtl_1_1TrackingDataElement.html#a3c0cec1b1389cbd160da63f1f23cd9ba">igtl::TrackingDataElement</a>
 </li>
+<li>m_MessageHandlerList
+: <a class="el" href="classigtl_1_1SessionManager.html#aa08ca9b4a7f9c149ca5d17a719ee5294">igtl::SessionManager</a>
+</li>
 <li>m_Modality
 : <a class="el" href="classigtl_1_1ImageMetaElement.html#a9cb745d7ae57f45d25f64563eeedf4ed">igtl::ImageMetaElement</a>
+</li>
+<li>m_Mode
+: <a class="el" href="classigtl_1_1SessionManager.html#a2bbabc7269d1e3f1705587e7be77954c">igtl::SessionManager</a>
 </li>
 <li>m_MultipleData
 : <a class="el" href="classigtl_1_1MultiThreader.html#a35a8fc9de5ad99110f2c384646012a77">igtl::MultiThreader</a>
@@ -179,12 +204,15 @@
 <li>m_Polygons
 : <a class="el" href="classigtl_1_1PolyDataMessage.html#a6ce95b0f9d38cde405937906c1424d59">igtl::PolyDataMessage</a>
 </li>
-<li>m_position
-: <a class="el" href="classigtl_1_1QuaternionTrackingDataElement.html#a86fb1daa31a03d0408be501eab327b60">igtl::QuaternionTrackingDataElement</a>
+<li>m_Port
+: <a class="el" href="classigtl_1_1SessionManager.html#ac5589ecb4c2293f90e890ad4ffaf7a82">igtl::SessionManager</a>
 </li>
 <li>m_Position
 : <a class="el" href="classigtl_1_1PointElement.html#af49bddb83d65dd39e04edd1633b6628d">igtl::PointElement</a>
 , <a class="el" href="classigtl_1_1PositionMessage.html#a88bf02026330d7d78d5e5b1e99228b28">igtl::PositionMessage</a>
+</li>
+<li>m_position
+: <a class="el" href="classigtl_1_1QuaternionTrackingDataElement.html#a86fb1daa31a03d0408be501eab327b60">igtl::QuaternionTrackingDataElement</a>
 </li>
 <li>m_Quaternion
 : <a class="el" href="classigtl_1_1PositionMessage.html#a0d6badd0ddde5a4e0915dfa658d86200">igtl::PositionMessage</a>
@@ -196,8 +224,8 @@
 : <a class="el" href="classigtl_1_1QuaternionTrackingDataMessage.html#a3f5c26753615f6cca098a8fb33a2901f">igtl::QuaternionTrackingDataMessage</a>
 </li>
 <li>m_Radius
-: <a class="el" href="classigtl_1_1PointElement.html#a1663333f56b2543bba4286d7b6b72941">igtl::PointElement</a>
-, <a class="el" href="classigtl_1_1TrajectoryElement.html#aba6e390ef06337ae96812ccac738b9de">igtl::TrajectoryElement</a>
+: <a class="el" href="classigtl_1_1TrajectoryElement.html#aba6e390ef06337ae96812ccac738b9de">igtl::TrajectoryElement</a>
+, <a class="el" href="classigtl_1_1PointElement.html#a1663333f56b2543bba4286d7b6b72941">igtl::PointElement</a>
 </li>
 <li>m_ReferenceCount
 : <a class="el" href="classigtl_1_1LightObject.html#a38f9fb70f9b56c75138a8ac13ca5cf21">igtl::LightObject</a>
@@ -211,9 +239,9 @@
 , <a class="el" href="classigtl_1_1StartTrackingDataMessage.html#a6f59110cc4d740572c17012718723f24">igtl::StartTrackingDataMessage</a>
 </li>
 <li>m_RGBA
-: <a class="el" href="classigtl_1_1PointElement.html#ae92dd2a8505d09949ccb3d52f611a8ca">igtl::PointElement</a>
+: <a class="el" href="classigtl_1_1LabelMetaElement.html#afc966e2797e60cd11302f43d05972693">igtl::LabelMetaElement</a>
+, <a class="el" href="classigtl_1_1PointElement.html#ae92dd2a8505d09949ccb3d52f611a8ca">igtl::PointElement</a>
 , <a class="el" href="classigtl_1_1TrajectoryElement.html#a434de0178f165ff8456a7c744c5e984e">igtl::TrajectoryElement</a>
-, <a class="el" href="classigtl_1_1LabelMetaElement.html#afc966e2797e60cd11302f43d05972693">igtl::LabelMetaElement</a>
 </li>
 <li>m_ScalarType
 : <a class="el" href="classigtl_1_1ImageMetaElement.html#a86c75b3de2b069a234c085cc07773d04">igtl::ImageMetaElement</a>
@@ -243,8 +271,11 @@
 : <a class="el" href="classigtl_1_1ImageMessage2.html#a1a549dac27aae9d890dcacc1307e3c7c">igtl::ImageMessage2</a>
 </li>
 <li>m_Size
-: <a class="el" href="classigtl_1_1LabelMetaElement.html#a76b469e4ee7a4354a4fdd77169f2399d">igtl::LabelMetaElement</a>
-, <a class="el" href="classigtl_1_1ImageMetaElement.html#a0fb6e4f862f0e1e819c6258f388be45a">igtl::ImageMetaElement</a>
+: <a class="el" href="classigtl_1_1ImageMetaElement.html#a0fb6e4f862f0e1e819c6258f388be45a">igtl::ImageMetaElement</a>
+, <a class="el" href="classigtl_1_1LabelMetaElement.html#a76b469e4ee7a4354a4fdd77169f2399d">igtl::LabelMetaElement</a>
+</li>
+<li>m_Socket
+: <a class="el" href="classigtl_1_1SessionManager.html#a23bc3a604bfed926e97376a101389976">igtl::SessionManager</a>
 </li>
 <li>m_SocketDescriptor
 : <a class="el" href="classigtl_1_1Socket.html#a101b564ff0ec89fa3f287da2ef373e49">igtl::Socket</a>
@@ -262,10 +293,10 @@
 : <a class="el" href="classigtl_1_1MultiThreader.html#af62203388a69a757d043c7994f92d3c8">igtl::MultiThreader</a>
 </li>
 <li>m_Status
-: <a class="el" href="classigtl_1_1RTSBindMessage.html#a91ba84cb123ee92f86a2d459fb8a2b3a">igtl::RTSBindMessage</a>
+: <a class="el" href="classigtl_1_1SensorMessage.html#a9510e0794d12d634052364a730d33642">igtl::SensorMessage</a>
 , <a class="el" href="classigtl_1_1RTSQuaternionTrackingDataMessage.html#a4e50449ef8f7e974451aa28e21c0686c">igtl::RTSQuaternionTrackingDataMessage</a>
-, <a class="el" href="classigtl_1_1SensorMessage.html#a9510e0794d12d634052364a730d33642">igtl::SensorMessage</a>
 , <a class="el" href="classigtl_1_1RTSTrackingDataMessage.html#aa845669c95424868b73783062d6ff0c7">igtl::RTSTrackingDataMessage</a>
+, <a class="el" href="classigtl_1_1RTSBindMessage.html#a91ba84cb123ee92f86a2d459fb8a2b3a">igtl::RTSBindMessage</a>
 </li>
 <li>m_StatusHeader
 : <a class="el" href="classigtl_1_1StatusMessage.html#a634033dde3fbbe4d251c9a74754be76b">igtl::StatusMessage</a>
@@ -289,7 +320,8 @@
 : <a class="el" href="classigtl_1_1MultiThreader.html#a52e3246b1f7b437d6b0d6b0473a4879d">igtl::MultiThreader</a>
 </li>
 <li>m_TimeStamp
-: <a class="el" href="classigtl_1_1ImageMetaElement.html#a49fb4e363117ea12b2074f22f1abada5">igtl::ImageMetaElement</a>
+: <a class="el" href="classigtl_1_1SessionManager.html#a963a0b7726868f0849b6fe6df3f0402f">igtl::SessionManager</a>
+, <a class="el" href="classigtl_1_1ImageMetaElement.html#a49fb4e363117ea12b2074f22f1abada5">igtl::ImageMetaElement</a>
 </li>
 <li>m_TimeStampSec
 : <a class="el" href="classigtl_1_1MessageBase.html#a371080a3f379e4b796e5bf595c66b611">igtl::MessageBase</a>
@@ -310,10 +342,13 @@
 : <a class="el" href="classigtl_1_1PolyDataMessage.html#a0ac32926849b87848acf991ef0dd95b7">igtl::PolyDataMessage</a>
 </li>
 <li>m_Type
-: <a class="el" href="classigtl_1_1TrackingDataElement.html#a5ffe332f03f9ac42ca99cc4d6a019c3a">igtl::TrackingDataElement</a>
-, <a class="el" href="classigtl_1_1TrajectoryElement.html#ac29c7778b87921b0bf09aac37ba34c30">igtl::TrajectoryElement</a>
+: <a class="el" href="classigtl_1_1TrajectoryElement.html#ac29c7778b87921b0bf09aac37ba34c30">igtl::TrajectoryElement</a>
 , <a class="el" href="classigtl_1_1QuaternionTrackingDataElement.html#a48ace05fb0d3ff0b3db931e85200f0e7">igtl::QuaternionTrackingDataElement</a>
+, <a class="el" href="classigtl_1_1TrackingDataElement.html#a5ffe332f03f9ac42ca99cc4d6a019c3a">igtl::TrackingDataElement</a>
 , <a class="el" href="classigtl_1_1NDArrayMessage.html#a7a0e23b994132f95665835f84ac680bf">igtl::NDArrayMessage</a>
+</li>
+<li>m_TypeNames
+: <a class="el" href="classigtl_1_1CapabilityMessage.html#af8d490705da063f631c1546dae703b4f">igtl::CapabilityMessage</a>
 </li>
 <li>m_Unit
 : <a class="el" href="classigtl_1_1SensorMessage.html#a51912188afa98d436687aad9e7bd29ef">igtl::SensorMessage</a>
@@ -331,20 +366,29 @@
 : <a class="el" href="classigtl_1_1ColorTableMessage.html#a31c5f507db82a35d9196a9372f6cc5dfa089c964d292af7ddaa1663fb640d09ab">igtl::ColorTableMessage</a>
 </li>
 <li>mapType
-: <a class="el" href="structigtl__colortable__header.html#a1dadbab59c37fa358c93a856275a7709">igtl_colortable_header</a>
-, <a class="el" href="classigtl_1_1ColorTableMessage.html#a3f4a8bf692d32fc6dfbfd9144504b83e">igtl::ColorTableMessage</a>
+: <a class="el" href="classigtl_1_1ColorTableMessage.html#a3f4a8bf692d32fc6dfbfd9144504b83e">igtl::ColorTableMessage</a>
+, <a class="el" href="structigtl__colortable__header.html#a1dadbab59c37fa358c93a856275a7709">igtl_colortable_header</a>
 </li>
 <li>matrix
-: <a class="el" href="structigtl__image__header.html#ac82b37f2065891c4c10b775e98cc6741">igtl_image_header</a>
-, <a class="el" href="classigtl_1_1TransformMessage.html#af272eb9540cec2860d6d6101cb923385">igtl::TransformMessage</a>
-, <a class="el" href="classigtl_1_1ImageMessage.html#a0b850cc9ac6c50a597c99fa72d912478">igtl::ImageMessage</a>
+: <a class="el" href="classigtl_1_1ImageMessage.html#a0b850cc9ac6c50a597c99fa72d912478">igtl::ImageMessage</a>
+, <a class="el" href="structigtl__image__header.html#ac82b37f2065891c4c10b775e98cc6741">igtl_image_header</a>
 , <a class="el" href="classigtl_1_1ImageMessage2.html#a74e3123b626f56e8e9ede99def577284">igtl::ImageMessage2</a>
+, <a class="el" href="classigtl_1_1TransformMessage.html#af272eb9540cec2860d6d6101cb923385">igtl::TransformMessage</a>
 </li>
 <li>MessageBase()
 : <a class="el" href="classigtl_1_1MessageBase.html#a996fa6b77d4394cd4302e2557add9198">igtl::MessageBase</a>
 </li>
+<li>MessageHandler()
+: <a class="el" href="classigtl_1_1MessageHandler.html#a2c6d58b7e72002bb0ab155742f772135">igtl::MessageHandler</a>
+</li>
 <li>modality
 : <a class="el" href="structigtl__imgmeta__element.html#aa276d2a6e65309f56a69060186ad2df0">igtl_imgmeta_element</a>
+</li>
+<li>MODE_CLIENT
+: <a class="el" href="classigtl_1_1SessionManager.html#ae2914ca9674fb668b218032d5b781e55a60ce11a982932dd659eab1d0a836250a">igtl::SessionManager</a>
+</li>
+<li>MODE_SERVER
+: <a class="el" href="classigtl_1_1SessionManager.html#ae2914ca9674fb668b218032d5b781e55a40c7b4b4dd049c689fe702629b464ae4">igtl::SessionManager</a>
 </li>
 <li>MultipleMethodExecute()
 : <a class="el" href="classigtl_1_1MultiThreader.html#a430d87569bede6e088b530113a93c814">igtl::MultiThreader</a>
@@ -358,7 +402,7 @@
 </ul>
 </div><!-- contents -->
 <hr><address><small>
-Generated at Tue Dec 25 2012 05:54:32 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
+Generated at Fri Mar 22 2013 16:03:06 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
 src="http://www.stack.nl/~dimitri/doxygen/doxygen.png" alt="doxygen"
 align="middle" border=0 width=104 height=31>
 </a> 1.8.1.1 written by <a href="mailto:dimitri@stack.nl">Dimitri van Heesch</a>,

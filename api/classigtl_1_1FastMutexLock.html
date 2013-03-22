@@ -42,14 +42,14 @@ Inheritance diagram for igtl::FastMutexLock:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1FastMutexLock__inherit__graph.png" border="0" usemap="#igtl_1_1FastMutexLock_inherit__map" alt="Inheritance graph"/></div>
 <map name="igtl_1_1FastMutexLock_inherit__map" id="igtl_1_1FastMutexLock_inherit__map">
-<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="31,83,115,111"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="17,6,129,34"/></map>
+<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="29,80,109,107"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="16,5,123,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for igtl::FastMutexLock:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1FastMutexLock__coll__graph.png" border="0" usemap="#igtl_1_1FastMutexLock_coll__map" alt="Collaboration graph"/></div>
 <map name="igtl_1_1FastMutexLock_coll__map" id="igtl_1_1FastMutexLock_coll__map">
-<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="134,193,217,221"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="126,99,239,127"/><area shape="rect" id="node6" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,6,181,34"/></map>
+<area shape="rect" id="node2" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="127,187,207,213"/><area shape="rect" id="node4" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="120,96,227,123"/><area shape="rect" id="node6" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,5,171,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classigtl_1_1FastMutexLock-members.html">List of all members.</a></p>
@@ -110,7 +110,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Critical section locking class. </p>
 <p><a class="el" href="classigtl_1_1FastMutexLock.html" title="Critical section locking class.">FastMutexLock</a> allows the locking of variables which are accessed through different threads. This header file also defines <a class="el" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack.">SimpleFastMutexLock</a> which is not a subclass of <a class="el" href="classigtl_1_1Object.html" title="Base class for most igtl classes.">Object</a>. The API is identical to that of <a class="el" href="classigtl_1_1MutexLock.html" title="Mutual exclusion locking class.">MutexLock</a>, and the behavior is identical as well, except on Windows 9x/NT platforms. The only difference on these platforms is that <a class="el" href="classigtl_1_1MutexLock.html" title="Mutual exclusion locking class.">MutexLock</a> is more flexible, in that it works across processes as well as across threads, but also costs more, in that it evokes a 600-cycle x86 ring transition. The <a class="el" href="classigtl_1_1FastMutexLock.html" title="Critical section locking class.">FastMutexLock</a> provides a higher-performance equivalent (on Windows) but won't work across processes. Since it is unclear how, in igtl, an object at the igtl level can be shared across processes in the first place, one should use <a class="el" href="classigtl_1_1FastMutexLock.html" title="Critical section locking class.">FastMutexLock</a> unless one has a very good reason to use <a class="el" href="classigtl_1_1MutexLock.html" title="Mutual exclusion locking class.">MutexLock</a>. If higher-performance equivalents for non-Windows platforms (Irix, SunOS, etc) are discovered, they should replace the implementations in this class </p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00066">66</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00064">64</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 </div><hr/><h2>Member Typedef Documentation</h2>
 <a class="anchor" id="ab5917847eb176edf44735f448c47c0e8"></a>
 <div class="memitem">
@@ -124,7 +124,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#accb2c6c135bf60b23708ad72dc8d9ff2">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00073">73</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00071">71</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -140,7 +140,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#aba67d0c6935f279b95dc44e61bb6a0bb">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00072">72</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00070">70</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#acf85bce020b85a1ecc25aa3744e13dd8">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00070">70</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00068">68</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -173,7 +173,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1Object.html#a4a64341a899828f772638f490088758d">igtl::Object</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00071">71</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00069">69</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -199,7 +199,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00088">88</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00086">86</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -224,7 +224,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00089">89</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00087">87</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
 </div>
 </div>
@@ -421,7 +421,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the name of this class as a string. Used by the object factory (implemented in <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">New()</a>) to instantiate objects of a named type. Also used for debugging and other output information. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00086">86</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00084">84</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +447,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Gets the reference count on this object. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00112">112</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00110">110</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -473,7 +473,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00118">118</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -501,7 +501,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00114">114</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -609,9 +609,9 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Lock the igtlFastMutexLock. </p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00100">100</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00098">98</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
-<p>References <a class="el" href="classigtl_1_1SimpleFastMutexLock.html#a002473e5ca64b55492ccb17ff81f50a4">igtl::SimpleFastMutexLock::Lock()</a>, and <a class="el" href="igtlFastMutexLock_8h_source.html#l00091">m_SimpleFastMutexLock</a>.</p>
+<p>References <a class="el" href="classigtl_1_1SimpleFastMutexLock.html#a002473e5ca64b55492ccb17ff81f50a4">igtl::SimpleFastMutexLock::Lock()</a>, and <a class="el" href="igtlFastMutexLock_8h_source.html#l00089">m_SimpleFastMutexLock</a>.</p>
 
 </div>
 </div>
@@ -639,7 +639,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">igtl::LightObject</a>.</p>
 
-<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00084">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
+<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00082">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
 
 </div>
 </div>
@@ -819,7 +819,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00118">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
+<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00114">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
 
 </div>
 </div>
@@ -873,9 +873,9 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Unlock the <a class="el" href="classigtl_1_1FastMutexLock.html" title="Critical section locking class.">FastMutexLock</a>. </p>
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00105">105</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00103">103</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
-<p>References <a class="el" href="igtlFastMutexLock_8h_source.html#l00091">m_SimpleFastMutexLock</a>, and <a class="el" href="classigtl_1_1SimpleFastMutexLock.html#ac3b96ef7ec9d2d354dacd52111aabc7c">igtl::SimpleFastMutexLock::Unlock()</a>.</p>
+<p>References <a class="el" href="igtlFastMutexLock_8h_source.html#l00089">m_SimpleFastMutexLock</a>, and <a class="el" href="classigtl_1_1SimpleFastMutexLock.html#ac3b96ef7ec9d2d354dacd52111aabc7c">igtl::SimpleFastMutexLock::Unlock()</a>.</p>
 
 </div>
 </div>
@@ -925,7 +925,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Number of uses of this object by other objects. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00133">133</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00131">131</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -948,7 +948,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Mutex lock to protect modification to the reference count </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00136">136</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00134">134</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -970,9 +970,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00091">91</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlFastMutexLock_8h_source.html#l00089">89</a> of file <a class="el" href="igtlFastMutexLock_8h_source.html">igtlFastMutexLock.h</a>.</p>
 
-<p>Referenced by <a class="el" href="igtlFastMutexLock_8h_source.html#l00100">Lock()</a>, and <a class="el" href="igtlFastMutexLock_8h_source.html#l00105">Unlock()</a>.</p>
+<p>Referenced by <a class="el" href="igtlFastMutexLock_8h_source.html#l00098">Lock()</a>, and <a class="el" href="igtlFastMutexLock_8h_source.html#l00103">Unlock()</a>.</p>
 
 </div>
 </div>
@@ -981,7 +981,7 @@ Protected Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr><address><small>
-Generated at Tue Dec 25 2012 05:54:30 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
+Generated at Fri Mar 22 2013 16:03:04 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
 src="http://www.stack.nl/~dimitri/doxygen/doxygen.png" alt="doxygen"
 align="middle" border=0 width=104 height=31>
 </a> 1.8.1.1 written by <a href="mailto:dimitri@stack.nl">Dimitri van Heesch</a>,

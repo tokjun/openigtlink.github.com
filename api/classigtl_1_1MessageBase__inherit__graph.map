@@ -1,40 +1,42 @@
 <map id="G" name="G">
-<area shape="rect" id="node7" href="$classigtl_1_1BindMessageBase.html" title="igtl::BindMessageBase" alt="" coords="506,31,662,59"/>
-<area shape="rect" id="node15" href="$classigtl_1_1ColorTableMessage.html" title="igtl::ColorTableMessage" alt="" coords="502,83,666,111"/>
-<area shape="rect" id="node17" href="$classigtl_1_1GetColorTableMessage.html" title="igtl::GetColorTableMessage" alt="" coords="491,135,677,163"/>
-<area shape="rect" id="node19" href="$classigtl_1_1GetImageMessage.html" title="igtl::GetImageMessage" alt="" coords="505,187,663,215"/>
-<area shape="rect" id="node21" href="$classigtl_1_1GetImageMessage2.html" title="igtl::GetImageMessage2" alt="" coords="501,239,667,267"/>
-<area shape="rect" id="node23" href="$classigtl_1_1GetImageMetaMessage.html" title="igtl::GetImageMetaMessage" alt="" coords="490,291,678,319"/>
-<area shape="rect" id="node25" href="$classigtl_1_1GetLabelMetaMessage.html" title="igtl::GetLabelMetaMessage" alt="" coords="492,343,676,371"/>
-<area shape="rect" id="node27" href="$classigtl_1_1GetPointMessage.html" title="igtl::GetPointMessage" alt="" coords="508,395,660,423"/>
-<area shape="rect" id="node29" href="$classigtl_1_1GetPolyDataMessage.html" title="igtl::GetPolyDataMessage" alt="" coords="496,447,672,475"/>
-<area shape="rect" id="node31" href="$classigtl_1_1GetTrajectoryMessage.html" title="igtl::GetTrajectoryMessage" alt="" coords="494,499,674,527"/>
-<area shape="rect" id="node33" href="$classigtl_1_1ImageMessage.html" title="igtl::ImageMessage" alt="" coords="516,551,652,579"/>
-<area shape="rect" id="node35" href="$classigtl_1_1ImageMessage2.html" title="igtl::ImageMessage2" alt="" coords="512,603,656,631"/>
-<area shape="rect" id="node37" href="$classigtl_1_1ImageMetaMessage.html" title="igtl::ImageMetaMessage" alt="" coords="501,655,667,683"/>
-<area shape="rect" id="node39" href="$classigtl_1_1LabelMetaMessage.html" title="igtl::LabelMetaMessage" alt="" coords="503,707,665,735"/>
-<area shape="rect" id="node41" href="$classigtl_1_1NDArrayMessage.html" title="igtl::NDArrayMessage" alt="" coords="508,759,660,787"/>
-<area shape="rect" id="node43" href="$classigtl_1_1PointMessage.html" title="igtl::PointMessage" alt="" coords="519,811,649,839"/>
-<area shape="rect" id="node45" href="$classigtl_1_1PolyDataMessage.html" title="igtl::PolyDataMessage" alt="" coords="507,863,661,891"/>
-<area shape="rect" id="node47" href="$classigtl_1_1PositionMessage.html" title="igtl::PositionMessage" alt="" coords="510,915,658,943"/>
-<area shape="rect" id="node49" href="$classigtl_1_1QuaternionTrackingDataMessage.html" title="igtl::QuaternionTracking\lDataMessage" alt="" coords="503,967,665,1011"/>
-<area shape="rect" id="node51" href="$classigtl_1_1RTSBindMessage.html" title="igtl::RTSBindMessage" alt="" coords="507,1035,661,1063"/>
-<area shape="rect" id="node53" href="$classigtl_1_1RTSQuaternionTrackingDataMessage.html" title="igtl::RTSQuaternionTracking\lDataMessage" alt="" coords="490,1087,678,1131"/>
-<area shape="rect" id="node55" href="$classigtl_1_1RTSTrackingDataMessage.html" title="igtl::RTSTrackingDataMessage" alt="" coords="481,1155,687,1183"/>
-<area shape="rect" id="node57" href="$classigtl_1_1SensorMessage.html" title="igtl::SensorMessage" alt="" coords="513,1207,655,1235"/>
-<area shape="rect" id="node59" href="$classigtl_1_1StartQuaternionTrackingDataMessage.html" title="igtl::StartQuaternionTracking\lDataMessage" alt="" coords="489,1259,679,1303"/>
-<area shape="rect" id="node61" href="$classigtl_1_1StartTrackingDataMessage.html" title="igtl::StartTrackingDataMessage" alt="" coords="481,1327,687,1355"/>
-<area shape="rect" id="node63" href="$classigtl_1_1StatusMessage.html" title="igtl::StatusMessage" alt="" coords="515,1379,653,1407"/>
-<area shape="rect" id="node65" href="$classigtl_1_1StopBindMessage.html" title="igtl::StopBindMessage" alt="" coords="507,1431,661,1459"/>
-<area shape="rect" id="node67" href="$classigtl_1_1StopQuaternionTrackingDataMessage.html" title="igtl::StopQuaternionTracking\lDataMessage" alt="" coords="489,1483,679,1527"/>
-<area shape="rect" id="node69" href="$classigtl_1_1StopTrackingDataMessage.html" title="igtl::StopTrackingDataMessage" alt="" coords="481,1551,687,1579"/>
-<area shape="rect" id="node71" href="$classigtl_1_1StringMessage.html" title="igtl::StringMessage" alt="" coords="517,1603,651,1631"/>
-<area shape="rect" id="node73" href="$classigtl_1_1TrackingDataMessage.html" title="igtl::TrackingDataMessage" alt="" coords="495,1655,673,1683"/>
-<area shape="rect" id="node75" href="$classigtl_1_1TrajectoryMessage.html" title="igtl::TrajectoryMessage" alt="" coords="505,1707,663,1735"/>
-<area shape="rect" id="node77" href="$classigtl_1_1TransformMessage.html" title="igtl::TransformMessage" alt="" coords="504,1759,664,1787"/>
-<area shape="rect" id="node2" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="169,863,253,891"/>
-<area shape="rect" id="node4" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="6,863,119,891"/>
-<area shape="rect" id="node9" href="$classigtl_1_1BindMessage.html" title="igtl::BindMessage" alt="" coords="747,6,874,34"/>
-<area shape="rect" id="node11" href="$classigtl_1_1GetBindMessage.html" title="igtl::GetBindMessage" alt="" coords="737,58,885,86"/>
-<area shape="rect" id="node13" href="$classigtl_1_1StartBindMessage.html" title="igtl::StartBindMessage" alt="" coords="933,58,1088,86"/>
+<area shape="rect" id="node7" href="$classigtl_1_1BindMessageBase.html" title="igtl::BindMessageBase" alt="" coords="488,31,640,57"/>
+<area shape="rect" id="node15" href="$classigtl_1_1CapabilityMessage.html" title="igtl::CapabilityMessage" alt="" coords="487,81,641,108"/>
+<area shape="rect" id="node17" href="$classigtl_1_1ColorTableMessage.html" title="A class for the COLORT message type." alt="" coords="485,132,643,159"/>
+<area shape="rect" id="node19" href="$classigtl_1_1GetCapabilityMessage.html" title="igtl::GetCapabilityMessage" alt="" coords="477,183,651,209"/>
+<area shape="rect" id="node21" href="$classigtl_1_1GetColorTableMessage.html" title="A class for the GET_COLORT message type." alt="" coords="475,233,653,260"/>
+<area shape="rect" id="node23" href="$classigtl_1_1GetImageMessage.html" title="igtl::GetImageMessage" alt="" coords="488,284,640,311"/>
+<area shape="rect" id="node25" href="$classigtl_1_1GetImageMessage2.html" title="igtl::GetImageMessage2" alt="" coords="485,335,643,361"/>
+<area shape="rect" id="node27" href="$classigtl_1_1GetImageMetaMessage.html" title="A class for the GET_IMGMETA message type." alt="" coords="473,385,655,412"/>
+<area shape="rect" id="node29" href="$classigtl_1_1GetLabelMetaMessage.html" title="A class for the GET_LBMETA message type." alt="" coords="475,436,653,463"/>
+<area shape="rect" id="node31" href="$classigtl_1_1GetPointMessage.html" title="A class for the GET_POINT message type." alt="" coords="491,487,637,513"/>
+<area shape="rect" id="node33" href="$classigtl_1_1GetPolyDataMessage.html" title="A class for the GET_POLYDATA message type." alt="" coords="479,537,649,564"/>
+<area shape="rect" id="node35" href="$classigtl_1_1GetTrajectoryMessage.html" title="A class for the GET_TRAJ message type." alt="" coords="479,588,649,615"/>
+<area shape="rect" id="node37" href="$classigtl_1_1ImageMessage.html" title="igtl::ImageMessage" alt="" coords="499,639,629,665"/>
+<area shape="rect" id="node39" href="$classigtl_1_1ImageMessage2.html" title="igtl::ImageMessage2" alt="" coords="495,689,633,716"/>
+<area shape="rect" id="node41" href="$classigtl_1_1ImageMetaMessage.html" title="igtl::ImageMetaMessage" alt="" coords="484,740,644,767"/>
+<area shape="rect" id="node43" href="$classigtl_1_1LabelMetaMessage.html" title="igtl::LabelMetaMessage" alt="" coords="485,791,643,817"/>
+<area shape="rect" id="node45" href="$classigtl_1_1NDArrayMessage.html" title="igtl::NDArrayMessage" alt="" coords="491,841,637,868"/>
+<area shape="rect" id="node47" href="$classigtl_1_1PointMessage.html" title="igtl::PointMessage" alt="" coords="502,892,626,919"/>
+<area shape="rect" id="node49" href="$classigtl_1_1PolyDataMessage.html" title="A class for the POLYDATA message type." alt="" coords="489,943,639,969"/>
+<area shape="rect" id="node51" href="$classigtl_1_1PositionMessage.html" title="igtl::PositionMessage" alt="" coords="494,993,634,1020"/>
+<area shape="rect" id="node53" href="$classigtl_1_1QuaternionTrackingDataMessage.html" title="igtl::QuaternionTracking\lDataMessage" alt="" coords="489,1045,639,1086"/>
+<area shape="rect" id="node55" href="$classigtl_1_1RTSBindMessage.html" title="igtl::RTSBindMessage" alt="" coords="491,1111,637,1137"/>
+<area shape="rect" id="node57" href="$classigtl_1_1RTSQuaternionTrackingDataMessage.html" title="A class for the RTS_QTDATA message type." alt="" coords="476,1162,652,1203"/>
+<area shape="rect" id="node59" href="$classigtl_1_1RTSTrackingDataMessage.html" title="A class for the RTS_TDATA message type." alt="" coords="465,1228,663,1255"/>
+<area shape="rect" id="node61" href="$classigtl_1_1SensorMessage.html" title="igtl::SensorMessage" alt="" coords="496,1279,632,1305"/>
+<area shape="rect" id="node63" href="$classigtl_1_1StartQuaternionTrackingDataMessage.html" title="A class for the STT_QTDATA message type." alt="" coords="476,1330,652,1371"/>
+<area shape="rect" id="node65" href="$classigtl_1_1StartTrackingDataMessage.html" title="A class for the STT_TDATA message type." alt="" coords="465,1396,663,1423"/>
+<area shape="rect" id="node67" href="$classigtl_1_1StatusMessage.html" title="igtl::StatusMessage" alt="" coords="497,1447,631,1473"/>
+<area shape="rect" id="node69" href="$classigtl_1_1StopBindMessage.html" title="igtl::StopBindMessage" alt="" coords="490,1497,638,1524"/>
+<area shape="rect" id="node71" href="$classigtl_1_1StopQuaternionTrackingDataMessage.html" title="igtl::StopQuaternionTracking\lDataMessage" alt="" coords="475,1549,653,1590"/>
+<area shape="rect" id="node73" href="$classigtl_1_1StopTrackingDataMessage.html" title="A class for the STP_TDATA message type." alt="" coords="465,1615,663,1641"/>
+<area shape="rect" id="node75" href="$classigtl_1_1StringMessage.html" title="THe STRING message type is used for transferring a character string. It supports character strings up..." alt="" coords="501,1665,627,1692"/>
+<area shape="rect" id="node77" href="$classigtl_1_1TrackingDataMessage.html" title="igtl::TrackingDataMessage" alt="" coords="479,1716,649,1743"/>
+<area shape="rect" id="node79" href="$classigtl_1_1TrajectoryMessage.html" title="igtl::TrajectoryMessage" alt="" coords="489,1767,639,1793"/>
+<area shape="rect" id="node81" href="$classigtl_1_1TransformMessage.html" title="igtl::TransformMessage" alt="" coords="489,1817,639,1844"/>
+<area shape="rect" id="node2" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="160,892,240,919"/>
+<area shape="rect" id="node4" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="5,892,112,919"/>
+<area shape="rect" id="node9" href="$classigtl_1_1BindMessage.html" title="A class for the BIND message type." alt="" coords="723,5,845,32"/>
+<area shape="rect" id="node11" href="$classigtl_1_1GetBindMessage.html" title="igtl::GetBindMessage" alt="" coords="713,56,855,83"/>
+<area shape="rect" id="node13" href="$classigtl_1_1StartBindMessage.html" title="igtl::StartBindMessage" alt="" coords="904,56,1051,83"/>
 </map>

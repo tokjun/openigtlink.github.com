@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node11" href="$classigtl_1_1StartBindMessage.html" title="igtl::StartBindMessage" alt="" coords="5,393,160,421"/>
-<area shape="rect" id="node2" href="$classigtl_1_1BindMessageBase.html" title="igtl::BindMessageBase" alt="" coords="4,238,160,266"/>
-<area shape="rect" id="node4" href="$classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="18,161,147,189"/>
-<area shape="rect" id="node6" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="41,83,124,111"/>
-<area shape="rect" id="node8" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="26,6,139,34"/>
+<area shape="rect" id="node11" href="$classigtl_1_1StartBindMessage.html" title="igtl::StartBindMessage" alt="" coords="8,379,155,405"/>
+<area shape="rect" id="node2" href="$classigtl_1_1BindMessageBase.html" title="igtl::BindMessageBase" alt="" coords="5,229,157,256"/>
+<area shape="rect" id="node4" href="$classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="18,155,144,181"/>
+<area shape="rect" id="node6" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="41,80,121,107"/>
+<area shape="rect" id="node8" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="28,5,135,32"/>
 </map>

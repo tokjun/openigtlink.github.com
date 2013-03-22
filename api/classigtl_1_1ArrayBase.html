@@ -40,7 +40,7 @@ Inheritance diagram for igtl::ArrayBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1ArrayBase__inherit__graph.png" border="0" usemap="#igtl_1_1ArrayBase_inherit__map" alt="Inheritance graph"/></div>
 <map name="igtl_1_1ArrayBase_inherit__map" id="igtl_1_1ArrayBase_inherit__map">
-<area shape="rect" id="node3" href="classigtl_1_1Array.html" title="igtl::Array\&lt; T \&gt;" alt="" coords="5,83,112,111"/></map>
+<area shape="rect" id="node3" href="classigtl_1_1Array.html" title="igtl::Array\&lt; T \&gt;" alt="" coords="5,80,107,107"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classigtl_1_1ArrayBase-members.html">List of all members.</a></p>
@@ -68,7 +68,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00032">32</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00030">30</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
 </div><hr/><h2>Member Typedef Documentation</h2>
 <a class="anchor" id="a74f29f46b333d4d9b03cccf6bfb25551"></a>
 <div class="memitem">
@@ -79,6 +79,8 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Vector type for an index of N-D array. </p>
 
 <p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00035">35</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
 
@@ -153,6 +155,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the 1-D index of the element specified by 'index'. This function is used to calculate the index of the element in the raw array. </p>
 
 </div>
 </div>
@@ -177,7 +180,9 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00045">45</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
+<p>Gets the dimension of the N-D array. </p>
+
+<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00050">50</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
 
 </div>
 </div>
@@ -201,6 +206,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the size of a element of the array. </p>
 
 <p>Implemented in <a class="el" href="classigtl_1_1Array.html#a93a3b13a36657b000deef95bad0d8887">igtl::Array&lt; T &gt;</a>.</p>
 
@@ -227,6 +234,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the number of elements in the array. </p>
+
 </div>
 </div>
 <a class="anchor" id="aaea7c3fc7116e355a0b5d8b02040da69"></a>
@@ -250,7 +259,9 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00049">49</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
+<p>Gets the raw byte array stored in the class. </p>
+
+<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00060">60</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
 
 </div>
 </div>
@@ -266,6 +277,8 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the size of the raw byte array stored in the class. </p>
 
 </div>
 </div>
@@ -290,7 +303,9 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00044">44</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
+<p>Gets the size of the N-D array. </p>
+
+<p>Definition at line <a class="el" href="igtlNDArrayMessage_8h_source.html#l00047">47</a> of file <a class="el" href="igtlNDArrayMessage_8h_source.html">igtlNDArrayMessage.h</a>.</p>
 
 </div>
 </div>
@@ -307,6 +322,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets an array from a byte array. Size and dimension must be specified prior to calling the <a class="el" href="classigtl_1_1ArrayBase.html#ac8e5e2e47333ac384f1fba2e8eef467d">SetArray()</a> function. </p>
 
 </div>
 </div>
@@ -324,6 +340,8 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the size of the N-D array. Returns non-zero value, if success. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -331,7 +349,7 @@ Protected Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr><address><small>
-Generated at Tue Dec 25 2012 05:54:30 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
+Generated at Fri Mar 22 2013 16:03:04 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
 src="http://www.stack.nl/~dimitri/doxygen/doxygen.png" alt="doxygen"
 align="middle" border=0 width=104 height=31>
 </a> 1.8.1.1 written by <a href="mailto:dimitri@stack.nl">Dimitri van Heesch</a>,

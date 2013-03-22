@@ -43,14 +43,14 @@ Inheritance diagram for igtl::ImageMessage2:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1ImageMessage2__inherit__graph.png" border="0" usemap="#igtl_1_1ImageMessage2_inherit__map" alt="Inheritance graph"/></div>
 <map name="igtl_1_1ImageMessage2_inherit__map" id="igtl_1_1ImageMessage2_inherit__map">
-<area shape="rect" id="node2" href="classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="12,161,141,189"/><area shape="rect" id="node4" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="35,83,119,111"/><area shape="rect" id="node6" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="21,6,133,34"/></map>
+<area shape="rect" id="node2" href="classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="11,155,137,181"/><area shape="rect" id="node4" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="35,80,115,107"/><area shape="rect" id="node6" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="21,5,128,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for igtl::ImageMessage2:</div>
 <div class="dyncontent">
 <div class="center"><img src="classigtl_1_1ImageMessage2__coll__graph.png" border="0" usemap="#igtl_1_1ImageMessage2_coll__map" alt="Collaboration graph"/></div>
 <map name="igtl_1_1ImageMessage2_coll__map" id="igtl_1_1ImageMessage2_coll__map">
-<area shape="rect" id="node2" href="classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="28,259,157,287"/><area shape="rect" id="node4" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="51,179,135,207"/><area shape="rect" id="node6" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="37,99,149,127"/><area shape="rect" id="node8" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,6,181,34"/></map>
+<area shape="rect" id="node2" href="classigtl_1_1MessageBase.html" title="igtl::MessageBase" alt="" coords="25,251,151,277"/><area shape="rect" id="node4" href="classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="48,173,128,200"/><area shape="rect" id="node6" href="classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="35,96,141,123"/><area shape="rect" id="node8" href="classigtl_1_1SimpleFastMutexLock.html" title="Critical section locking class that can be allocated on the stack." alt="" coords="5,5,171,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classigtl_1_1ImageMessage2-members.html">List of all members.</a></p>
@@ -201,7 +201,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab2d5358bc20b4560b6ccf873ead389d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1ImageMessage2.html#ab2d5358bc20b4560b6ccf873ead389d7">coordinate</a></td></tr>
-<tr class="memitem:a57c7ed4fd2865e1b4eff058933f1fa81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1ImageMessage2.html#a57c7ed4fd2865e1b4eff058933f1fa81">dataType</a></td></tr>
 <tr class="memitem:a3d8a02c46d57bb673d56e04aef0059c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1ImageMessage2.html#a3d8a02c46d57bb673d56e04aef0059c7">dimensions</a> [3]</td></tr>
 <tr class="memitem:ae5979e37c73c6391b0ce1ae68c7490cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1ImageMessage2.html#ae5979e37c73c6391b0ce1ae68c7490cf">endian</a></td></tr>
 <tr class="memitem:a7a241cdb07d7b68a58450afc9686449c"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1ImageMessage2.html#a7a241cdb07d7b68a58450afc9686449c">m_Image</a></td></tr>
@@ -248,8 +247,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a0b31ba4bbf6184a5c1246eb046a33750"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classigtl_1_1MessageBase.html#a0b31ba4bbf6184a5c1246eb046a33750">m_TimeStampSecFraction</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00063">63</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<div class="textblock"><p>A class for the IMAGE message type with support for fragmented packing. The IMAGE format supports 2D or 3D images with metric information including image matrix size, voxel size, coordinate system type, position, and orientation. The body section of the IMAGE data consists of two parts: image header to transfer the metric information and image body to transfer the array of pixel or voxel values. The data type of pixel or voxel can be either scalar or vector, and numerical values can be 8-, 16-, 32-bit integer, or 32- or 64-bit floating point. The pixel values can be either big-endian or little-endian, since the sender software can specify the byte order in the image header. The format also supports "partial image transfer", in which a region of the image is transferred instead of the whole image. This mechanism is suitable for real-time applications, in which images are updated region-by-region. The sub-volume must be box-shaped and defined by 6 parameters consisting of the indices for the corner voxel of the sub-volume and matrix size of the sub-volume.</p>
+<p>The difference between the <a class="el" href="classigtl_1_1ImageMessage.html">ImageMessage</a> and <a class="el" href="classigtl_1_1ImageMessage2.html">ImageMessage2</a> classes is that the <a class="el" href="classigtl_1_1ImageMessage2.html">ImageMessage2</a> class supports fragmented pack. Fragmeted pack allows allocating memory for each segment independently. The version 1 library assumes that the memory area for entire message pack is allocated at once, causing extra memory copies in some applications. (For example, copying image from source into the pack memory) </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00080">80</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 </div><hr/><h2>Member Typedef Documentation</h2>
 <a class="anchor" id="a7f388e69ac442c31f945ee74769cffa9"></a>
 <div class="memitem">
@@ -263,7 +264,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#af5e7fd574703c686f4cfcd291fe375d4">igtl::MessageBase</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00069">69</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00086">86</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -279,7 +280,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#ae6b025f407be36dd005159a4e0f1539d">igtl::MessageBase</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00068">68</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00085">85</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -296,7 +297,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#afdb8a57a61abad3eec15c84abb0d764a">igtl::MessageBase</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00066">66</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00083">83</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -312,7 +313,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a267b117e4d3914b3bef5419978db9e2c">igtl::MessageBase</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00067">67</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00084">84</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -334,6 +335,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Unpack status. They are returned by the <a class="el" href="classigtl_1_1MessageBase.html#a29f7a91f355e9fb6851ae6c6fa57ed1e">Unpack()</a> function. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="ac9c714d26471c8eb485c780706d955a1a31c26db2b4ff1c29d507b639fac88dba"></a>UNPACK_UNDEF</em>&nbsp;</td><td>
 </td></tr>
@@ -345,7 +348,7 @@ Protected Attributes</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00072">72</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00069">69</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -358,6 +361,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Coordinate sysmtem. Either left-posterior-superior (LPS) or right-anterior-superior (RAS). </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a28e24cdb64a662efa58c7e0ba39e0eafa10f0363e44c8a1e374642e05a6c892ca"></a>COORDINATE_LPS</em>&nbsp;</td><td>
 </td></tr>
@@ -367,7 +372,7 @@ Protected Attributes</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00076">76</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00094">94</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -380,6 +385,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Endian used in the bite array for the image data. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="adf41944cbe6e9e90a4ace7591b0551b8ae36c7ed4eae263ea9c49834362386112"></a>ENDIAN_BIG</em>&nbsp;</td><td>
 </td></tr>
@@ -389,7 +396,7 @@ Protected Attributes</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00081">81</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00100">100</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -402,6 +409,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pixel data type either scalar or vector. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a75e26edd4b100911060bac8edef8e740aae119964578c27f4a94bd1145bc35e77"></a>DTYPE_SCALAR</em>&nbsp;</td><td>
 </td></tr>
@@ -411,7 +420,7 @@ Protected Attributes</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00086">86</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00106">106</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -424,6 +433,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pixel data type. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a71d2dd2eb0a961b34990205f24499da4a85c1df436cd1342a4fc62c375431efb6"></a>TYPE_INT8</em>&nbsp;</td><td>
 </td></tr>
@@ -445,7 +456,7 @@ Protected Attributes</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00091">91</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00112">112</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -518,6 +529,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="classigtl_1_1MessageBase.html#a8866e24ddb0f529e5984caa74e477f46" title="AllocatePack() allocates memory for packing / receiving buffer.">AllocatePack()</a> allocates memory for packing / receiving buffer. </p>
+
 </div>
 </div>
 <a class="anchor" id="ab01f781ab87570b69f17a03aac0a8dd4"></a>
@@ -541,6 +554,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Allocate memory specifying the body size (used when create a brank package to receive data) (for fragmented pack support) </p>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a5b6bc2b3d2170c57c0399b0a44ea0661">igtl::MessageBase</a>.</p>
 
@@ -566,6 +580,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Allocates a memory area for the scalar data based on the dimensions of the subvolume, the number of components, and the scalar type. Note: If FragmentedPack is active, <a class="el" href="classigtl_1_1ImageMessage2.html#a5440b37ae37eae189e142d0b6ce8cbd6" title="Gets a pointer to the scalar data.">GetScalarPointer()</a> causes extra memory allocation to create a single pack memroy degrading the performance. </p>
 
 </div>
 </div>
@@ -614,6 +629,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="classigtl_1_1MessageBase.html#a771cbe35a2896c0f01b7d7d01e6557f8">Copy()</a> copies contents from the specified Massage class. If the type of the specified class is the same as this class, both general header and body are copied. Otherwise, only general header is copied. </p>
 
 </div>
 </div>
@@ -639,6 +655,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Copies the serialized body data. </p>
+
 </div>
 </div>
 <a class="anchor" id="a271724574ebaabf504056654ac6a689f"></a>
@@ -662,6 +680,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Copies a header from. </p>
 
 </div>
 </div>
@@ -784,6 +804,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the size of the serialized body. </p>
+
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a4c7e9728913e470b389ac493e3aa9378">igtl::MessageBase</a>.</p>
 
 </div>
@@ -808,8 +830,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="classigtl_1_1MessageBase.html#ac41a9a272e8d1761639bc904e409b4a0">GetBodySizeToRead()</a> returns the size of the body to be read. This function must be called after the message header is set. </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00131">131</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00152">152</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -834,7 +857,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00114">114</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p><a class="el" href="classigtl_1_1MessageBase.html#aef45163331635f0c41b0a83148bcffc1" title="GetBodyType() gets the type of the body.">GetBodyType()</a> gets the type of the body. </p>
+
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00131">131</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -883,6 +908,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the device (message) name. </p>
+
 </div>
 </div>
 <a class="anchor" id="a7be5f54a330d4333867bee75007b265d"></a>
@@ -906,6 +933,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the device (message) type. </p>
+
 </div>
 </div>
 <a class="anchor" id="ad607cb23864167fed919499157d766bd"></a>
@@ -921,6 +950,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets image dimensions as an array of the numbers of pixels in i, j and k directions. </p>
 
 </div>
 </div>
@@ -954,6 +985,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets image dimensions as the numbers of pixels in i, j and k directions. </p>
+
 </div>
 </div>
 <a class="anchor" id="a4d15646e34f9ed8aed01854f215c818f"></a>
@@ -977,7 +1010,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00161">161</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Gets the Endianess of the image scalars. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00251">251</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1025,8 +1060,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the size (length) of the byte array for the image data. The size is defined by dimensions[0]*dimensions[1]*dimensions[2]*scalarSize*numComponents. </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00164">164</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00256">256</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1043,6 +1079,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the origin/orientation matrix. </p>
 
 </div>
 </div>
@@ -1068,7 +1106,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the name of this class as a string. Used by the object factory (implemented in <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">New()</a>) to instantiate objects of a named type. Also used for debugging and other output information. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00086">86</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00084">84</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -1085,6 +1123,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets the orientation of the image using an array of the normal vectors for the i, j and k indeces. </p>
 
 </div>
 </div>
@@ -1118,6 +1157,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the orientation of the image using the normal vectors for the i, j and k indeces. </p>
+
 </div>
 </div>
 <a class="anchor" id="a56111ea6ee774bb1ab86e32e30678cc8"></a>
@@ -1140,8 +1181,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the number of fragments for the packed (serialized) data. Returns 3 consisting of header, image header and image body. (for fragmented pack support) </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00185">185</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00288">288</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1158,6 +1200,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the number of components for each voxel. </p>
+
 </div>
 </div>
 <a class="anchor" id="aef530821c55f04fb99e2b665f4be14da"></a>
@@ -1173,6 +1217,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets the coordinates of the origin using an array of positions along the first (R or L), second (A or P) and the third (S) axes. </p>
 
 </div>
 </div>
@@ -1205,6 +1250,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets the coordinates of the origin by positions along the first (R or L), second (A or P) and the third (S) axes. </p>
 
 </div>
 </div>
@@ -1229,6 +1275,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets a pointer to the raw byte array for the serialized body data. </p>
+
 </div>
 </div>
 <a class="anchor" id="a2af888702ebd31c60eafd077e467b0a2"></a>
@@ -1252,6 +1300,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the size of the serialized body data. </p>
+
 </div>
 </div>
 <a class="anchor" id="a83c06e7188f31a2bdbea668bddec42e8"></a>
@@ -1267,6 +1317,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a pointer to the specified fragment of the packed data. (for fragmented pack support) </p>
 
 </div>
 </div>
@@ -1284,6 +1336,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the size of the specified fragment. (for fragmented pack support) </p>
+
 </div>
 </div>
 <a class="anchor" id="ab04a3a5fa37dee2d86db45037bce0080"></a>
@@ -1298,6 +1352,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets a pointer to the scalar data (for fragmented pack support). </p>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a63ebb4973ffb9be3a940031227721dc2">igtl::MessageBase</a>.</p>
 
@@ -1324,6 +1380,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the size of the serialized data. </p>
+
 </div>
 </div>
 <a class="anchor" id="ae12b7c22769b3546fee0184d1a912fe9"></a>
@@ -1348,7 +1406,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Gets the reference count on this object. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00112">112</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00110">110</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -1373,6 +1431,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets a pointer to the scalar data. </p>
+
 </div>
 </div>
 <a class="anchor" id="ac8e38e07ac26204bcb3e4c5999bdc6f2"></a>
@@ -1395,8 +1455,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the size of the scalar type used in the current image data. (e.g. 1 byte for 8-bit integer) </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00156">156</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00242">242</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1422,7 +1483,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00157">157</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Gets the size of the specified scalar type. (e.g. 1 byte for 8-bit integer) </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00245">245</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1447,7 +1510,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00155">155</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Gets the image scalar type. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00238">238</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1464,6 +1529,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets spacings using an array of spacing values in i, j and k directions. </p>
 
 </div>
 </div>
@@ -1497,6 +1564,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets spacings using spacing values in i, j and k directions. </p>
+
 </div>
 </div>
 <a class="anchor" id="a1af810af886f33050018ac55f10e7c5b"></a>
@@ -1522,6 +1591,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets sub-volume dimensions and offset using arrays of the dimensions and the offset. </p>
 
 </div>
 </div>
@@ -1572,6 +1643,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets sub-volume dimensions and offset by the dimensions and the offset in i, j and k directions. </p>
 
 </div>
 </div>
@@ -1595,8 +1667,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the size (length) of the byte array for the subvolume image data. The size is defined by subDimensions[0]*subDimensions[1]*subDimensions[2]* scalarSize*numComponents. </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00169">169</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00264">264</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -1632,6 +1705,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets time of message creation. 'sec' and 'frac' are seconds and fractions of a second respectively. </p>
+
 </div>
 </div>
 <a class="anchor" id="a9bc839515938c13af31f4071f658d6b7"></a>
@@ -1655,6 +1730,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets time of message creation. </p>
 
 </div>
 </div>
@@ -1680,7 +1757,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00118">118</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -1708,7 +1785,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00116">116</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlObject_8h_source.html#l00114">114</a> of file <a class="el" href="igtlObject_8h_source.html">igtlObject.h</a>.</p>
 
 <p>References <a class="el" href="classigtl_1_1Object.html#ae9818a2606849a1119db14d03dacdf71">igtl::Object::SetGlobalWarningDisplay()</a>.</p>
 
@@ -1769,6 +1846,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Call <a class="el" href="classigtl_1_1MessageBase.html#a65333f75199ffa39e4be80782afdafce">InitPack()</a> before receive header. This function simply resets the Unpacked flag for both the header and body pack. </p>
 
 </div>
 </div>
@@ -1796,7 +1874,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1LightObject.html#a3ab7bf1baf4b843472c25658fb1c27d6">igtl::LightObject</a>.</p>
 
-<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00084">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
+<p>Referenced by <a class="el" href="igtlCreateObjectFunction_8h_source.html#l00082">igtl::CreateObjectFunction&lt; T &gt;::CreateObject()</a>.</p>
 
 </div>
 </div>
@@ -1820,6 +1898,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="classigtl_1_1ImageMessage2.html#a568c2fb41cd88da9e64407cf028d3431">Pack()</a> serializes the header and body based on the member variables. <a class="el" href="classigtl_1_1ImageMessage2.html#a932878dafea18a1c18f65b6bdac3f742" title="Packs (serialize) the body. Must be implemented in a child class.">PackBody()</a> must be implemented in the child class. (for fragmented pack support) </p>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a1c33ce5927fa40d52af19809823e4e5a">igtl::MessageBase</a>.</p>
 
@@ -1845,6 +1924,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Packs (serialize) the body. Must be implemented in a child class. </p>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#a75162c23922bff3a2ba1285fa1fc7f3a">igtl::MessageBase</a>.</p>
 
@@ -1925,7 +2006,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1LightObject.html#a14e1e70bd7dfbb67c5eff507f9e6f323">igtl::LightObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classigtl_1_1MultiThreader.html#a617baf3ffb36a918fce17aab14fc4a20">igtl::MultiThreader</a>, <a class="el" href="classigtl_1_1MutexLock.html#a56862d15abf65399cd70842d0a45012d">igtl::MutexLock</a>, <a class="el" href="classigtl_1_1ObjectFactoryBase.html#acc8c7a73f858e843a31e6421cdb25848">igtl::ObjectFactoryBase</a>, <a class="el" href="classigtl_1_1Socket.html#aa9e8033c8347ba39adfe2f5689d67c89">igtl::Socket</a>, <a class="el" href="classigtl_1_1FastMutexLock.html#a71e9ecb9e5f6ac39a0853a13167d78c6">igtl::FastMutexLock</a>, <a class="el" href="classigtl_1_1ServerSocket.html#aeb56986a980df46b8c0bc9f257e03327">igtl::ServerSocket</a>, <a class="el" href="classigtl_1_1TimeStamp.html#a4b8471130aee04d54bca8ada1d118040">igtl::TimeStamp</a>, and <a class="el" href="classigtl_1_1ClientSocket.html#a3aea07a016a6269567ba8b186c9e38bc">igtl::ClientSocket</a>.</p>
+<p>Reimplemented in <a class="el" href="classigtl_1_1MultiThreader.html#a617baf3ffb36a918fce17aab14fc4a20">igtl::MultiThreader</a>, <a class="el" href="classigtl_1_1MutexLock.html#a56862d15abf65399cd70842d0a45012d">igtl::MutexLock</a>, <a class="el" href="classigtl_1_1ObjectFactoryBase.html#acc8c7a73f858e843a31e6421cdb25848">igtl::ObjectFactoryBase</a>, <a class="el" href="classigtl_1_1Socket.html#aa9e8033c8347ba39adfe2f5689d67c89">igtl::Socket</a>, <a class="el" href="classigtl_1_1FastMutexLock.html#a71e9ecb9e5f6ac39a0853a13167d78c6">igtl::FastMutexLock</a>, <a class="el" href="classigtl_1_1TimeStamp.html#a4b8471130aee04d54bca8ada1d118040">igtl::TimeStamp</a>, <a class="el" href="classigtl_1_1ServerSocket.html#aeb56986a980df46b8c0bc9f257e03327">igtl::ServerSocket</a>, and <a class="el" href="classigtl_1_1ClientSocket.html#a3aea07a016a6269567ba8b186c9e38bc">igtl::ClientSocket</a>.</p>
 
 </div>
 </div>
@@ -2027,6 +2108,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets the device (message) name. </p>
+
 </div>
 </div>
 <a class="anchor" id="aedaea436c16a33f9d33ac3d4995b5f5e"></a>
@@ -2042,6 +2125,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets image dimensions by an array of the numbers of pixels in i, j and k directions. <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> should be called prior to <a class="el" href="classigtl_1_1ImageMessage2.html#aadeba9e06db8fccc049ab18846a49ce9">SetSubVolume()</a>, since <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> sets subvolume parameters automatically assuming that subvolume = entire volume. </p>
 
 </div>
 </div>
@@ -2074,6 +2158,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets image dimensions by the numbers of pixels in i, j and k directions. <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> should be called prior to <a class="el" href="classigtl_1_1ImageMessage2.html#aadeba9e06db8fccc049ab18846a49ce9">SetSubVolume()</a>, since <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> sets subvolume parameters automatically assuming that subvolume = entire volume. </p>
 
 </div>
 </div>
@@ -2099,7 +2184,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00160">160</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the Endianess of the image scalars. (default is ENDIAN_BIG) </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00248">248</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2126,7 +2213,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a global flag that controls whether any debug, warning or error messages are displayed. </p>
 
-<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00118">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
+<p>Referenced by <a class="el" href="igtlObject_8h_source.html#l00116">igtl::Object::GlobalWarningDisplayOff()</a>, and <a class="el" href="igtlObject_8h_source.html#l00114">igtl::Object::GlobalWarningDisplayOn()</a>.</p>
 
 </div>
 </div>
@@ -2143,6 +2230,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the origin/orientation matrix. </p>
 
 </div>
 </div>
@@ -2168,9 +2257,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets the message header. </p>
+
 <p>Reimplemented in <a class="el" href="classigtl_1_1PositionMessage.html#abb65627c286d164cae94167957407908">igtl::PositionMessage</a>.</p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00130">130</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00148">148</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2187,6 +2278,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets the orientation of the image by an array of the normal vectors for the i, j and k indeces. </p>
 
 </div>
 </div>
@@ -2220,6 +2312,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the orientation of the image by the normal vectors for the i, j and k indeces. </p>
+
 </div>
 </div>
 <a class="anchor" id="a6accd76c6d8297780899d883a6e60c21"></a>
@@ -2236,6 +2330,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the number of components for each voxel. </p>
+
 </div>
 </div>
 <a class="anchor" id="a89489d40e0dccc873830e839eea49901"></a>
@@ -2251,6 +2347,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets the coordinates of the origin by an array of positions along the first (R or L), second (A or P) and the third (S) axes. </p>
 
 </div>
 </div>
@@ -2283,6 +2380,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets the coordinates of the origin by positions along the first (R or L), second (A or P) and the third (S) axes. </p>
 
 </div>
 </div>
@@ -2335,6 +2433,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets the pointer to the scalar data (for fragmented pack support). </p>
+
 </div>
 </div>
 <a class="anchor" id="a8acdd9530e3db02961969d66e17a51aa"></a>
@@ -2359,7 +2459,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00148">148</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00217">217</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2384,7 +2486,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00151">151</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to 16-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00226">226</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2409,7 +2513,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00153">153</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to 32-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00232">232</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2434,7 +2540,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00149">149</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to 8-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00220">220</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2459,7 +2567,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00152">152</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to unsigned 16-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00229">229</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2484,7 +2594,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00154">154</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to unsigned 32-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00235">235</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2509,7 +2621,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00150">150</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Sets the image scalar type to unsigned 8-bit integer. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00223">223</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2526,6 +2640,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets spacings by an array of spacing values in i, j and k directions. </p>
 
 </div>
 </div>
@@ -2559,6 +2675,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets spacings by spacing values in i, j and k directions. </p>
+
 </div>
 </div>
 <a class="anchor" id="aadeba9e06db8fccc049ab18846a49ce9"></a>
@@ -2584,6 +2702,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets sub-volume dimensions and offset by arrays of the dimensions and the offset. <a class="el" href="classigtl_1_1ImageMessage2.html#aadeba9e06db8fccc049ab18846a49ce9">SetSubVolume()</a> should be called after calling SetDiemensions(), since <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> reset the subvolume parameters automatically. Returns non-zero value if the subvolume is successfully specified. Returns zero, if invalid subvolume is specified. </p>
 
 </div>
 </div>
@@ -2634,6 +2753,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets sub-volume dimensions and offset by the dimensions and the offset in i, j and k directions. <a class="el" href="classigtl_1_1ImageMessage2.html#aadeba9e06db8fccc049ab18846a49ce9">SetSubVolume()</a> should be called after calling SetDiemensions(), since <a class="el" href="classigtl_1_1ImageMessage2.html#aedaea436c16a33f9d33ac3d4995b5f5e">SetDimensions()</a> reset the subvolume parameters automatically. Returns non-zero value if the subvolume is successfully specified. Returns zero, if invalid subvolume is specified. </p>
 
 </div>
 </div>
@@ -2669,6 +2789,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets time of message creation. 'sec' and 'frac' are seconds and fractions of a second respectively. </p>
+
 </div>
 </div>
 <a class="anchor" id="a474e274a54b576ec27616d0d9b8ceef8"></a>
@@ -2693,6 +2815,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets time of message creation. </p>
+
 </div>
 </div>
 <a class="anchor" id="a29f7a91f355e9fb6851ae6c6fa57ed1e"></a>
@@ -2716,6 +2840,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="classigtl_1_1MessageBase.html#a29f7a91f355e9fb6851ae6c6fa57ed1e">Unpack()</a> deserializes the header and/or body, extracting data from the byte stream. If the header has already been deserilized, <a class="el" href="classigtl_1_1MessageBase.html#a29f7a91f355e9fb6851ae6c6fa57ed1e">Unpack()</a> deserializes only the body part. <a class="el" href="classigtl_1_1MessageBase.html#adc55ec3c98c0f02e5693d099365ec4d6" title="Unpacks (deserialize) the body. Must be implemented in a child class.">UnpackBody()</a> must be implemented to deserialize the body part. <a class="el" href="classigtl_1_1MessageBase.html#a29f7a91f355e9fb6851ae6c6fa57ed1e">Unpack()</a> performs 64-bit CRC check, when crccheck = 1. It returns:</p>
+<p>UNPACK_UNDEF : Nothing deserialized UNPACK_HEADER : The header has been deserialized. UNPACK_BODY : The body has been deserialized. If CRC check fails, <a class="el" href="classigtl_1_1MessageBase.html#a29f7a91f355e9fb6851ae6c6fa57ed1e">Unpack()</a> doesn't deserialize the body, thus it doesn't return UNPACK_BODY flag. UNPACK_HEADER|UNPACK_BODY: Both the header and body have been deserialized </p>
 
 </div>
 </div>
@@ -2739,6 +2865,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Unpacks (deserialize) the body. Must be implemented in a child class. </p>
 
 <p>Reimplemented from <a class="el" href="classigtl_1_1MessageBase.html#adc55ec3c98c0f02e5693d099365ec4d6">igtl::MessageBase</a>.</p>
 
@@ -2781,21 +2909,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00227">227</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A variable for the scalar type of the voxels. </p>
 
-</div>
-</div>
-<a class="anchor" id="a57c7ed4fd2865e1b4eff058933f1fa81"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int igtl::ImageMessage2::dataType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00224">224</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00349">349</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2809,7 +2925,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00216">216</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A vector containing the numbers of voxels in i, j and k directions. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00324">324</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2823,7 +2941,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00223">223</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A variable for the Endian of the scalar values in the image. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00340">340</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2844,8 +2964,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A pointer to the byte array for the serialized body. To prevent large copy of the byte array in the <a class="el" href="classigtl_1_1MessageBase.html#a1c33ce5927fa40d52af19809823e4e5a">Pack()</a> function, header byte array is concatinated to the byte array for the header. </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00161">161</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00188">188</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2866,8 +2987,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>The size of the body to be read. This function must be called after the message header is set. </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00163">163</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00192">192</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2888,8 +3010,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A character string for the device type (message type). This will be used when the header is desrialized from a byte stream received from the network. </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00167">167</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00199">199</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2911,7 +3034,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00166">166</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>A character string for the default device type (message type). </p>
+
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00195">195</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2933,7 +3058,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00168">168</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>A character string for the device name (message name). </p>
+
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00202">202</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2954,8 +3081,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A pointer to the byte array for the serialized header. To prevent large copy of the byte array in the <a class="el" href="classigtl_1_1MessageBase.html#a1c33ce5927fa40d52af19809823e4e5a">Pack()</a> function, header byte array is concatinated to the byte array for the body. </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00160">160</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00183">183</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -2969,7 +3097,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00230">230</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A pointer to the serialized image data. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00355">355</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2983,7 +3113,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00229">229</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A pointer to the serialized image header. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00352">352</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -2996,8 +3128,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A variable for the memory size of this-&gt;m_Image (for backward compatibility with the conventional packing) </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00235">235</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00366">366</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3019,7 +3152,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00175">175</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Unpacking (desrialization) status for the body (0: &ndash; 1: unpacked). </p>
+
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00216">216</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -3041,7 +3176,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00174">174</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Unpacking (desrialization) status for the header (0: &ndash; 1: unpacked). </p>
+
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00213">213</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -3063,7 +3200,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00159">159</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00178">178</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -3086,7 +3223,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Number of uses of this object by other objects. </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00133">133</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00131">131</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -3109,7 +3246,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Mutex lock to protect modification to the reference count </p>
 
-<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00136">136</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlLightObject_8h_source.html#l00134">134</a> of file <a class="el" href="igtlLightObject_8h_source.html">igtlLightObject.h</a>.</p>
 
 </div>
 </div>
@@ -3123,7 +3260,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00237">237</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A flag for the fragmented image pack (allocated by this class). </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00369">369</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3137,7 +3276,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00238">238</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A flag for the fragmented image pack (allocated by this class). </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00372">372</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3151,7 +3292,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00233">233</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A pointer to the serialized data (for backward compatibility with the conventional packing) </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00359">359</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3164,8 +3307,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A variable for the memory size of this-&gt;m_SinglePack (for backward compatibility with the conventional packing) </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00234">234</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00363">363</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3186,8 +3330,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A time stamp (second) for message creation. It consists of fields for seconds (m_TimeStampSec)and franctions of a second (m_TimeStampSecFraction). </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00170">170</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00206">206</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -3208,8 +3353,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A time stamp (second) for message creation. It consists of fields for seconds (m_TimeStampSec)and franctions of a second (m_TimeStampSecFraction). </p>
 
-<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00171">171</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlMessageBase_8h_source.html#l00210">210</a> of file <a class="el" href="igtlMessageBase_8h_source.html">igtlMessageBase.h</a>.</p>
 
 </div>
 </div>
@@ -3223,7 +3369,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00221">221</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A matrix representing the origin and the orientation of the image. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00337">337</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3237,7 +3385,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00225">225</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A variable for the number of components. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00343">343</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3251,7 +3401,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00249">249</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A table to look up the size of a given scalar type. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00377">377</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3265,7 +3417,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00226">226</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A variable for the scalar type of the voxels. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00346">346</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3279,7 +3433,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00217">217</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A vector containing the spacings of the voxels in i, j and k directions. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00327">327</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3293,7 +3449,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00218">218</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>A vector containing the numbers of voxels of the subvolume in i, j and k directions. </p>
+
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00330">330</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3306,8 +3464,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A vector containing the offset (number of voxels) of the first voxel of the subvolume from the first voxel of the original image. </p>
 
-<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00219">219</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
+<p>Definition at line <a class="el" href="igtlImageMessage2_8h_source.html#l00334">334</a> of file <a class="el" href="igtlImageMessage2_8h_source.html">igtlImageMessage2.h</a>.</p>
 
 </div>
 </div>
@@ -3316,7 +3475,7 @@ Protected Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr><address><small>
-Generated at Tue Dec 25 2012 05:54:31 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
+Generated at Fri Mar 22 2013 16:03:05 for OpenIGTLink  by <a href="http://www.stack.nl/~dimitri/doxygen/index.html"> <img 
 src="http://www.stack.nl/~dimitri/doxygen/doxygen.png" alt="doxygen"
 align="middle" border=0 width=104 height=31>
 </a> 1.8.1.1 written by <a href="mailto:dimitri@stack.nl">Dimitri van Heesch</a>,

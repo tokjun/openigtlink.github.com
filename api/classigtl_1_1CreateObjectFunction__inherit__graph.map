@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classigtl_1_1CreateObjectFunctionBase.html" title="Define API for object creation callback functions." alt="" coords="5,161,211,189"/>
-<area shape="rect" id="node4" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="66,83,149,111"/>
-<area shape="rect" id="node6" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="51,6,164,34"/>
+<area shape="rect" id="node2" href="$classigtl_1_1CreateObjectFunctionBase.html" title="Define API for object creation callback functions." alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node4" href="$classigtl_1_1Object.html" title="Base class for most igtl classes." alt="" coords="63,80,143,107"/>
+<area shape="rect" id="node6" href="$classigtl_1_1LightObject.html" title="Light weight base class for most igtl classes." alt="" coords="49,5,156,32"/>
 </map>

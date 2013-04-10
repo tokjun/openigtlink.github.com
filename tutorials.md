@@ -17,7 +17,7 @@ Contact [Sonia Pujol, Ph.D.](http://www.spl.harvard.edu/pages/People/spujol), if
 
 
 ## Using OpenIGTLink from 3D Slicer Python Interface
-> Web page: [3D Slicer OpenIGTLink Developer's Information Page](http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Developers/OpenIGTLinkIF)
+> Web page: [3D Slicer OpenIGTLink Developer's Information Page](http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Developers/OpenIGTLinkIF)
 With 3D Slicer, you can write your own IGT application as a plug-in module using
 [Python scripting language](http://www.python.org). The OpenIGTLink Developer's
 Information Page demonstrate how to control data streaming through the OpenIGTLink

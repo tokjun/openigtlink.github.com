@@ -7,7 +7,7 @@ description: ""
 {% include JB/setup %}
 
 ## 3D Slicer and OpenIGTLink Tutorial
-> Web Page: [3D Slicer 4.1 Training Page](http://www.slicer.org/slicerWiki/index.php/Documentation/4.1/Training#OpenIGTLink).
+> Web Page: [3D Slicer 4.2 Training Page](http://www.slicer.org/slicerWiki/index.php/Documentation/4.2/Training#OpenIGTLink).
 3D Slicer, is a free, open source software package for visualization and image analysis. The package comes with
 integrated OpenIGTLink interface that allows you to exchange various types of data such as position tracking data,
 image data with external tools. The 3D Slicer training page provides a series of courses for learning how to use Slicer4.

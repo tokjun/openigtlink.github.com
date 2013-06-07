@@ -13,7 +13,7 @@ Slicer, or 3D Slicer, is a free, open source software package for visualization 
 
 
 ## Plus (Public software Library for UltraSound imaging research) 
-> Web page: [https://www.assembla.com/spaces/plus/wiki](https://www.assembla.com/spaces/plus/wiki)
+> Web page: [http://www.plustoolkit.org](http://www.plustoolkit.org)
 Plus is a software package containing library functions and applications for tracked ultrasound image acquisition, calibration, and processing. Features include:
 
 * B-mode and RF acquisition using a wide range of imaging and tracking devices

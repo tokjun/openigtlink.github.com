@@ -8,10 +8,10 @@ group: navigation
 
 This page is under development. Please refer [OpenIGTLink Protocol Version 2](http://www.na-mic.org/Wiki/index.php/OpenIGTLink/ProtocolV2/Index) for more information.
 
-## OpenIGTLink version 2 Summary
+## OpenIGTLink Version 2 Summary
 * The header format will not be changed. 
 * Simple querying mechanism is defined. See [querying mechanism in version 2](protocols/v2_query.html).
-* The protocol version 2 continue to focus on message formats. Supporting tools (simulators and interfaces for specific applications e.g. 3D Slicer, Matlab) and transportation layer (use of UDP or other network communication middleware) should be discussed separately.
+* The protocol version 2 continues to focus on message formats. Supporting tools (simulators and interfaces for specific applications e.g. 3D Slicer, Matlab) and transportation layer (use of UDP or other network communication middleware) should be discussed separately.
 * More information is available in [Version 2 Summary page](protocols/v2_summary.html).
 
 ## OpenIGTLink Protocol Rules

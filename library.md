@@ -106,17 +106,17 @@ group: navigation
 
 ## OpenIGTLink Library (C/C++)
 ### Introduction
-A free open-source C/C++ OpenIGTLink library is available for your software developement. It provides a easy-to-use 
-C/C++ API to generate OpenIGTLink messages, and send them to another OpenIGTLink software over the network using TCP/IP.
-Please see [Tutorial page] (tutorials.html) to learn how easy it is to add OpenIGTLink interface to your application.
+A free open-source C/C++ OpenIGTLink library is available for your software development. It provides an easy-to-use 
+C/C++ API to generate OpenIGTLink messages and send them to another OpenIGTLink software over the network using TCP/IP.
+Please see [the Tutorial page] (tutorials.html) to learn how easy it is to add an OpenIGTLink interface to your application.
 
 
 ### Supported platforms
-* Microsoft Windows (tested on XP and 7 (32-bit and 64-bit))
-* Linux (Tested on Ubuntu 10.10 (32-bit and 64-bit))
-* Mac OS X 10.5/6/7 (Intel 64-bit)
-* Sun Solaris (GNU CC and Sun CC) (tested on Solaris 8 and 10) 
-* QNX (Not tested well -- feedbacks from QNX users are greatly appreciated)
+* Microsoft Windows (tested on XP and 7 32-bit and 64-bit)
+* Linux (Tested on Ubuntu 10.10 32-bit and 64-bit)
+* Mac OS X 10.5/6/7 (Intel, 64-bit)
+* Sun Solaris (GNU CC and Sun CC, tested on Solaris 8 and 10) 
+* QNX (Not tested well -- feedback from QNX users is greatly appreciated)
 
 ### License
 This code is distributed under the [new BSD License](http://www.opensource.org/licenses/bsd-license.php).

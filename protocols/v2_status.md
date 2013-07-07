@@ -51,26 +51,29 @@ optional description in the following data field.
 
 ### Status codes:
 
-0. Invalid packet - 0 is not used<br />
-0. OK (Default status)<br />
-0. Unknown error<br />
-0. Panic mode (emergency)<br />
-0. Not found (file, configuration, device etc)<br />
-0. Access denied<br />
-0. Busy<br />
-0. Time out / Connection lost<br />
-0. Overflow / Can't be reached<br />
-0. Checksum error<br />
-0. Configuration error<br />
-0. Not enough resource (memory, storage etc)<br />
-0. Illegal/Unknown instruction (or feature not implemented / Unknown command received)<br />
-0. Device not ready (starting up)<br />
-0. Manual mode (device does not accept commands)<br />
-0. Device disabled<br />
-0. Device not present<br />
-0. Device version not known<br />
-0. Hardware failure<br />
-0. Exiting / shut down in progress<br />
+(7/6/2013: The list was updated due to the discrepancy between this document and the actual specification.)
+
+- 00: Invalid packet - 0 is not used
+- 01: OK (Default status)
+- 02: Unknown error
+- 03: Panic mode (emergency)
+- 04: Not found (file, configuration, device etc)
+- 05: Access denied
+- 06: Busy
+- 07: Time out / Connection lost
+- 08: Overflow / Can't be reached
+- 09: Checksum error
+- 10: Configuration error
+- 11: Not enough resource (memory, storage etc)
+- 12: Illegal/Unknown instruction (or feature not implemented / Unknown command received)
+- 13: Device not ready (starting up)
+- 14: Manual mode (device does not accept commands)
+- 15: Device disabled
+- 16: Device not present
+- 17: Device version not known
+- 18: Hardware failure
+- 19: Exiting / shut down in progress
+
 
 
 ### GET_STATUS

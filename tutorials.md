@@ -30,6 +30,13 @@ This tutorial provides step-by-step instructions on how to use [The OpenIGTLink 
 software development using the C/C++ language. The library is available free of chage for any purpose, including commercial use.
 
 
+## Connecting 3D Slicer with Brainlab Neurosurgical Navigation System
+> Web page: [3D Slicer Brainlab Tutorial](http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.3/Modules/OpenIGTLinkRemote/BrainlabTutorial)
+Brainlab's "IGTLink" research interface allows your research software to import images, labels and real-time tracking data
+from Brainlab's neurosurgical navigation system using OpenIGTLink.
+This tutorial shows how to connect 3D Slicer Brainlab's neurosurgical navigation system through "IGTLink" research interface.
+
+
 ## Integrating Your Matlab/Octave Script with 3D Slicer Using OpenIGTLink
 > Web page: [OpenIGTLink Matlab](tutorials/matlabigtl.html)
 This tutorial shows how to use the OpenIGTLink interface for Matlab/Octave. The interface allows

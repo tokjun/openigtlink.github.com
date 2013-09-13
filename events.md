@@ -2,6 +2,7 @@
 layout: page
 title: Events
 group: navigation
+weight: 5
 description: ""
 ---
 {% include JB/setup %}

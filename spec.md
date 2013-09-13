@@ -2,6 +2,7 @@
 layout: page
 title: Specification
 header: Pages
+weight: 2
 group: navigation
 ---
 {% include JB/setup %}

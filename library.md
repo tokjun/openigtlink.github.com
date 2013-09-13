@@ -2,6 +2,7 @@
 layout: page
 title: SDK
 header: Pages
+weight: 3
 group: navigation
 ---
 {% include JB/setup %}

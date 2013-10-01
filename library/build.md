@@ -7,13 +7,7 @@ description: ""
 ## Linux / Mac OS X
 First, obtain the source code from the repository using Git. To simply download the code, run the following command from a terminal:
 
-    $ git clone git://github.com/openigtlink/OpenIGTLink.git
-
-If you have any plan to contribute your source code to the repository, please do:
-
-    $ git clone git@github.com:openigtlink/OpenIGTLink.git
-
-Note that your SSH public key must be registered to the repository prior to the access. Please send a key to [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda) with your contact information.
+    $ git clone https://github.com/openigtlink/OpenIGTLink.git
 
 Then configure using CMake. The library requires CMake version higher than 2.4.
 

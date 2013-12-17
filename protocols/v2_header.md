@@ -42,7 +42,7 @@ Big endian should be used for all [numerical values](http://www.opengroup.org/on
 <tr>
 <td align="left"> TIME_STAMP
 </td><td align="left"> 64 bit unsigned int
-</td><td align="left"> <a href="/Wiki/index.php/OpenIGTLink/Timestamp" title="OpenIGTLink/Timestamp"> Timestamp</a> or 0 if unused
+</td><td align="left"> Timestamp or 0 if unused
 </td></tr>
 <tr>
 <td align="left"> BODY_SIZE
@@ -56,14 +56,26 @@ Big endian should be used for all [numerical values](http://www.opengroup.org/on
 </td></tr>
 </table>
 
+
 ## Description of Fields
 ### Version number
+The version number field specifies the header format version. Currently the version number is *1*.
+Please note that this is different from the protocol version.
+
 ### Type name
+The type name field is an ASCII character string specifying the type of the data contained in the message body e.g. "TRANSFORM".
+The length of the type name must be within 12 characters. 
+
 ### Device name
-### Time stamp
+The device name field contains an ASCII character string specifying the name of the the message. 
+
+### Timestamp
+The timestamp field contains a 64-bit timestamp indicating when the data is generated.
+Please refer [Timestamp](v2_timestamp.html) for the format of the 64-bit timestamp.
+
 ### Body size
 ### CRC
 The 64-bit CRC used in OpenIGTLink protocol is based on
-[hECMA-182 standard](ttp://www.ecma-international.org/publications/files/ECMA-ST/Ecma-182.pdf).
+[ECMA-182 standard](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-182.pdf).
 An example code is available in [igtl_util.c](https://github.com/openigtlink/OpenIGTLink/blob/master/Source/igtlutil/igtl_unit.h) in the OpenIGTLink library.
 

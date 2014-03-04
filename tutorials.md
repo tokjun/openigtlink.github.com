@@ -37,12 +37,8 @@ Brainlab's "IGTLink" research interface allows your research software to import 
 from Brainlab's neurosurgical navigation system using OpenIGTLink.
 This tutorial shows how to connect 3D Slicer Brainlab's neurosurgical navigation system through "IGTLink" research interface.
 
-
-## Integrating Your Matlab/Octave Script with 3D Slicer Using OpenIGTLink
-> Web page: [OpenIGTLink Matlab](tutorials/matlabigtl.html)
-This tutorial shows how to use the OpenIGTLink interface for Matlab/Octave. The interface allows
-your Matlab script to exchange linear transform and image data with 3D Slicer over the network.
-
-
+## Integrating Your Matlab Script with 3D Slicer Using OpenIGTLink
+> Web page: [New OpenIGTLink Matlab Interface](https://www.assembla.com/spaces/plus/wiki/Matlab_interface)
+This new Matlab OpenIGTLink Interface, developed by [Perk Lab. at Queen's University](http://perk.cs.queensu.ca), enables data exchange between Matlab and other software through OpenIGTLink. Compared to [the interface developed in 2008](http://www.na-mic.org/Wiki/index.php/OpenIGTLink/Matlab), the new interface does not require MEX, and can be used without compilation. You may still use the old interface for Octave, a free Matlab alternative. 
 
 

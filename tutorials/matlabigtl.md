@@ -5,6 +5,14 @@ header: Pages
 ---
 {% include JB/setup %}
 
+##Before You Start...
+There are currently two implementations of OpenIGTLink interfaces for Matlab:
+1. Matlab/OpenIGTLink interface developed in 2008 (see below)
+2. [New Matlab Interface](https://www.assembla.com/spaces/plus/wiki/Matlab_interface) developed by [Perk Lab. at Queen's University](http://perk.cs.queensu.ca)
+
+Since we released the Matlab/OpenIGTLink interface in 2008, we have learned that some users had troubles building Matlab MEX files due to incompatibility between Matlab and C++ compilers installed in their systems. To address this issue, the team at Queen's University developed the new Matlab Interface that does not require MEX. We recommend to check [their page](https://www.assembla.com/spaces/plus/wiki/Matlab_interface), before deciding which to use.
+
+
 ##About Matlab/OpenIGTLink
 The objective of this project is to provide OpenIGTLink interface for [Matlab](http://www.mathworks.com/) / [Octave](http://www.gnu.org/software/octave/) to support research and development in image guided therapy (IGT). Matlab and Octave are widely used for prototyping image and signal processing algorithms. They also offer many powerful function sets to handle matrix and coordinate data, which is useful to test and analyze coordinate data exported from tracking and robotic devices.
 

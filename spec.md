@@ -7,8 +7,6 @@ group: navigation
 ---
 {% include JB/setup %}
 
-This page is under development. Please refer [OpenIGTLink Protocol Version 2](http://www.na-mic.org/Wiki/index.php/OpenIGTLink/ProtocolV2/Index) for more information.
-
 ## OpenIGTLink Version 2 Summary
 * The header format will not be changed. 
 * Simple querying mechanism is defined. See [querying mechanism in version 2](protocols/v2_query.html).

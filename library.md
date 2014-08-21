@@ -106,6 +106,7 @@ group: navigation
 
 
 ## OpenIGTLink Library (C/C++)
+
 ### Introduction
 A free open-source C/C++ OpenIGTLink library is available for your software development. It provides an easy-to-use 
 C/C++ API to generate OpenIGTLink messages and send them to another OpenIGTLink software over the network using TCP/IP.

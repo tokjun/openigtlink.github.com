@@ -8,10 +8,19 @@ description: ""
 {% include JB/setup %}
 
 ## Upcoming
-* June 26-29, 2013 - [3D Slicer hands-on workshop on Image-Guided Therapy and joint Slicer/CTK/MITK workshop, CARS 2013, Heidelberg, Germany](http://www.na-mic.org/Wiki/index.php/CARS2013)
+
+## 2014
+* August 26, 2014 - [IEEE EMBC Pre-conference Tutorial "Building image-guidance systems from open-source components", Chicago, IL](http://www.slicerigt.org/wp/embc-2014-tutorial/)
+* September 18, 2014 - [MICCAI Tutorial "Building image-guidance systems from open-source components", Boston, MA](http://www.slicerigt.org/wp/miccai-2014-tutorial/)
 
 ## Past
+
+### 2014
+* June 23-27, 2014 - [Summer Project Week at MIT](http://www.na-mic.org/Wiki/index.php/2014_Summer_Project_Week)
+* January 6-10, 2014 - [NA-MIC All Hands Meeting, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2014)
+
 ### 2013
+* June 26-29, 2013 - [3D Slicer hands-on workshop on Image-Guided Therapy and joint Slicer/CTK/MITK workshop, CARS 2013, Heidelberg, Germany](http://www.na-mic.org/Wiki/index.php/CARS2013)
 * April 10-11, 2013 - [Slicer Ultrasound workshop, Iwate, Japan](http://www.na-mic.org/Wiki/index.php/Iwate_2013_Training)
 * April 9, 2013 - [Slicer Workshop, Tokyo, Japan](http://www.na-mic.org/Wiki/index.php/Tokyo_2013_Training)
 * January 7-11, 2013 - [NA-MIC All Hands Meeting, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2013)

@@ -25,19 +25,20 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 * [Tina Kapur, Ph.D.](http://www.spl.harvard.edu/pages/People/tkapur), Brigham and Women's Hospital
 * [Steve Pieper, Ph.D.](http://www.spl.harvard.edu/pages/People/pieper), Isomics, Inc.
 * [Isaiah Norton](http://golbylab.bwh.harvard.edu/people/nortonIsaiah.html), Brigham and Women's Hospital
-* [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
 * [Gabor Fichtinger, Ph.D.](http://research.cs.queensu.ca/~gabor/), Queen's University, Canada
-* [Iulian I. Iordachita](https://www.lcsr.jhu.edu/User:Iiordachita/CV), Johns Hopkins University
 * [Tamas Ungi, M.D., Ph.D.](http://perk.cs.queensu.ca/profiles/ungi), Queen's University, Canada
 * [Andras Lasso, Ph.D.](http://perk.cs.queensu.ca/profiles/lasso), Queen's University, Canada
+* [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
+* [Matt Clarkson, Ph.D.](http://cmic.cs.ucl.ac.uk/), Centre For Medical Image Computing, University College London, UK.
 * [Laurent Chauvin, M.S.](http://www.spl.harvard.edu/pages/People/lchauvin), Brigham and Women's Hospital
 * [Luis Ib&aacute;&ntilde;ez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.
-* [Jumpei Arata, Ph.D.](http://arata.web.nitech.ac.jp/index.html), Nagoya Institute of Technology, Japan
 * Patrick Cheng, Ph.D., Georgetown University
 * [Peter Kazanzides, Ph.D.](http://eng.jhu.edu/wse/systems-institute/page/peter-kazanzides), Johns Hopkins University
-* [Jan Egger, Ph.D., Ph.D](http://www.spl.harvard.edu/pages/People/egger), Brigham and Women's Hospital
+* [Jumpei Arata, Ph.D.](http://arata.web.nitech.ac.jp/index.html), Nagoya Institute of Technology, Japan
 * [Alex Golby, M.D.](http://golbylab.bwh.harvard.edu/people/golbyAlexandra.html), Brigham and Women's Hospital
 * Andre Charles Legendre
+* [Iulian I. Iordachita](https://www.lcsr.jhu.edu/User:Iiordachita/CV), Johns Hopkins University
+* [Jan Egger, Ph.D., Ph.D](http://www.spl.harvard.edu/pages/People/egger), Brigham and Women's Hospital
 * [Haying Liu](http://www.spl.harvard.edu/pages/People/hliu), Brigham and Women's Hospital
 * [Yuichiro Hayashi](http://www.spl.harvard.edu/pages/People/yhayashi), Ph.D., Nagoya University, Japan
 * [Atsushi Yamada, Ph.D.](http://www.spl.harvard.edu/pages/People/ayamada), Shiga University of Medical Science, Japan

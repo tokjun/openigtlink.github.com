@@ -1,0 +1,10 @@
+digraph "OpenIGTLink" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a99df614dfce0a85aa674ccd404fa6a2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a99df614dfce0a85aa674ccd404fa6a2.html"];
+    dir_a99df614dfce0a85aa674ccd404fa6a2 [shape=plaintext label="OpenIGTLink"];
+    dir_a1422669a0bddf8deb5489c80fb69c8a [shape=box label="Source" color="red" fillcolor="white" style="filled" URL="dir_a1422669a0bddf8deb5489c80fb69c8a.html"];
+  }
+}

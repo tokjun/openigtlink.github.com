@@ -28,7 +28,7 @@ description: ""
 ### 2012
 * June 30, 2012 - [NA-MIC IGT Workshop, CARS 2012](http://www.na-mic.org/Wiki/index.php/CARS_2012)
 * June 18-22, 2012 - [Summer Project Week at MIT; Summer 2012 Tutorial Contest](http://www.na-mic.org/Wiki/index.php/2012_Summer_Project_Week)
-* January 9-13, 2012 - [NA-MIC All Hands Meeting, Winter Project Week in Salt Lake City] (http://www.na-mic.org/Wiki/index.php/AHM_2012)
+* January 9-13, 2012 - [NA-MIC All Hands Meeting, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2012)
 
 ### 2011
 * June 20-24, 2011 - [Summer Project Week at MIT](http://www.na-mic.org/Wiki/index.php/2011_Summer_Project_Week)
@@ -38,11 +38,11 @@ description: ""
 
 ###2010
 * December 6-7, 2010 - [Slicer workshop in Dundee, UK](http://www.na-mic.org/Wiki/index.php/Events:Dundee-Dec-2010)
-* June 21-25, 2010 - [Summer Project Week at MIT -- OpenIGTLink Updates] (http://www.na-mic.org/Wiki/index.php?title=2010_Summer_Project_Week)
+* June 21-25, 2010 - [Summer Project Week at MIT -- OpenIGTLink Updates](http://www.na-mic.org/Wiki/index.php?title=2010_Summer_Project_Week)
 * May 27, 2010 - [NA-MIC teleconference call on May 27, 2010](http://www.na-mic.org/Wiki/index.php?title=Engineering:TCON_2010) Discussion on OpenIGTLink session in [NA-MIC Summer Project Week in Boston](http://www.na-mic.org/Wiki/index.php?title=2010_Summer_Project_Week)
 
 ### 2009
-* [Systems & Architecture for Computer Assisted Intervention @ MICCAI 2009, London] (https://smarts.lcsr.jhu.edu/dokuwiki/doku.php?id=event:miccai.workshop.2009)
+* [Systems & Architecture for Computer Assisted Intervention @ MICCAI 2009, London](https://smarts.lcsr.jhu.edu/dokuwiki/doku.php?id=event:miccai.workshop.2009)
 
 ### 2008
 * [Systems & Architecture for Computer Assisted Intervention @ MICCAI 2008, NY](http://na-mic.org/Wiki/index.php/Miccai_2008_Systems_and_Architecture_Workshop)
@@ -50,6 +50,6 @@ description: ""
 * February 27-29, 2008 - BWH, JHU, AcousticMed meeting of JHU Transperineal Robot project
 
 ### 2007
-* December 14, 2007 - [Middleware features discussion] (http://www.slicer.org/slicerWiki/index.php/Slicer/Features/Middleware) at [Slicer IGT Programming week](http://www.na-mic.org/Wiki/index.php?title=2007_December_Slicer_IGT_Programming).
+* December 14, 2007 - [Middleware features discussion](http://www.slicer.org/slicerWiki/index.php/Slicer/Features/Middleware) at [Slicer IGT Programming week](http://www.na-mic.org/Wiki/index.php?title=2007_December_Slicer_IGT_Programming).
 
 * June 27, 2007 - Initial discussion about requirements

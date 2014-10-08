@@ -10,12 +10,12 @@ description: ""
 ## Upcoming
 
 ## 2014
-* August 26, 2014 - [IEEE EMBC Pre-conference Tutorial "Building image-guidance systems from open-source components", Chicago, IL](http://www.slicerigt.org/wp/embc-2014-tutorial/)
-* September 18, 2014 - [MICCAI Tutorial "Building image-guidance systems from open-source components", Boston, MA](http://www.slicerigt.org/wp/miccai-2014-tutorial/)
 
 ## Past
 
 ### 2014
+* August 26, 2014 - [IEEE EMBC Pre-conference Tutorial "Building image-guidance systems from open-source components", Chicago, IL](http://www.slicerigt.org/wp/embc-2014-tutorial/)
+* September 18, 2014 - [MICCAI Tutorial "Building image-guidance systems from open-source components", Boston, MA](http://www.slicerigt.org/wp/miccai-2014-tutorial/)
 * June 23-27, 2014 - [Summer Project Week at MIT](http://www.na-mic.org/Wiki/index.php/2014_Summer_Project_Week)
 * January 6-10, 2014 - [NA-MIC All Hands Meeting, Winter Project Week in Salt Lake City](http://www.na-mic.org/Wiki/index.php/AHM_2014)
 

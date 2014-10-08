@@ -51,7 +51,7 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 * [Surgical Planning Laboratory, Brigham and Women's Hospital](http://www.spl.harvard.edu)
 * [Automation and Interventional Medicine (AIM) Robotics Laboratory, Worcester Polytechnic Institute](http://aimlab.wpi.edu)
 * [Laboratory for Percutaneous Surgery, Queen's University, Canada](http://perk.cs.queensu.ca)
-* [Insight Software Consortium] (http://www.insightsoftwareconsortium.org/)
+* [Insight Software Consortium](http://www.insightsoftwareconsortium.org/)
 * [Computer-Integrated Surgical Systems and Technology, Johns Hopkins University](http://www.cisst.org/)
 * [Robotics and Automation Laboratory, Nagoya Institute of Technology, Japan](http://ral.web.nitech.ac.jp/members.html)
 
@@ -60,7 +60,7 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 * NIH 5R01CA138586: A New Method for Improved Targeting in Image-Guided Abdominal Interventions (PI: Nobuhiko Hata)
 * [National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/) (PI: Ferenc A. Jolesz / Clare M. Tempany)
 * [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/) (PI: Ron Kikinis)
-* [Intelligent Surgical Instrument Project] (http://www.intelli-si.org) sponsored by The Ministry of International Trade and Industry, Japan (PI: Makoto Hashizume)
+* Intelligent Surgical Instrument Project sponsored by The Ministry of International Trade and Industry, Japan (PI: Makoto Hashizume)
 
 
 ## Publications

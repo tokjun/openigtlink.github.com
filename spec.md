@@ -23,7 +23,9 @@ group: navigation
 * [OpenIGTLink Header](protocols/v2_header.html)
 
 ## Proposed Message Types
+
 ### Message types inherited from version 1
+
 * [TRANSFORM](protocols/v2_transform.html)
 * [QTRANS](protocols/v2_qtransform.html) (formerly POSITION)
 * [POSITION](protocols/v2_position.html) (alias of QTRANS)

@@ -7,6 +7,11 @@ weight: 6
 ---
 {% include JB/setup %}
 
+~~~~~
+If you have any job openings related to OpenIGTLink, and interested in positing in this page,
+please contact Junichi Tokuda (tokuda@bwh.harvard.edu)
+~~~~~
+
 ## Research Assistant at Brigham and Women's Hospital
 > Web page: [Surgical Navigation and Robotics Lab., Brigham and Women's Hospital](http://snr.spl.harvard.edu/pages/Opportunities)
 

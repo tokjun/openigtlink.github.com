@@ -10,10 +10,13 @@ description: ""
 ## Upcoming
 
 ## 2015
-* May 30, 2015 - [ICRA 2015 Workshop "Shared Frameworks for Medical Robotics Research", Seattle, WA](http://research.intusurg.com/workshops/icra-2015/)
 * October 5, 2015 - [MICCAI 2015 Tutorial "Navigation of Interventional and Surgical Devices Using Open-Source Software", Munich, Germany](http://www.slicerigt.org/wp/miccai-2015-tutorial/)
 
 ## Past
+
+## 2015
+* May 30, 2015 - [ICRA 2015 Workshop "Shared Frameworks for Medical Robotics Research", Seattle, WA](http://research.intusurg.com/workshops/icra-2015/)
+* October 5, 2015 - [MICCAI 2015 Tutorial "Navigation of Interventional and Surgical Devices Using Open-Source Software", Munich, Germany](http://www.slicerigt.org/wp/miccai-2015-tutorial/)
 
 ### 2014
 * August 26, 2014 - [IEEE EMBC Pre-conference Tutorial "Building image-guidance systems from open-source components", Chicago, IL](http://www.slicerigt.org/wp/embc-2014-tutorial/)

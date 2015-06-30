@@ -7,13 +7,15 @@ group: navigation
 ---
 {% include JB/setup %}
 
-OpenIGTLink provides a standardized mechanism for communications among computers and devices in operating rooms (OR) for a wide variety of image-guided therapy (IGT) applications. Examples of such applications include:
+OpenIGTLink is a network communication protocol specifically designed and developed for research on image-guided and computer-assisted interventions. It provides a standardized mechanism for communications among computers and devices in operating rooms (OR) for a wide variety of image-guided therapy (IGT) applications. Examples of such applications include:
 
 * Stereotactic surgical guidance using optical position sensor and medical image visualization software
 * Intraoperative image guidance using real-time MRI and medical image visualization software
 * Robot-assisted interventions using robotic devices and surgical planning software
 
-OpenIGTLink is a set of digital messaging formats and rules (protocol) used for data exchange on a local area network (LAN). The specification of OpenIGTLink and its reference implementation, the OpenIGTLink Library, are available free of charge for any purpose including commercial use. An OpenIGTLink interface is available in popular medical image processing and visualization software 3D Slicer.
+OpenIGTLink is a set of messaging formats and rules (protocol) used for data exchange on a local area network (LAN). The specification of OpenIGTLink and its reference implementation, the OpenIGTLink Library, are available free of charge for any purpose including commercial use. An OpenIGTLink interface is available in popular medical image processing and visualization software 3D Slicer.
+
+The OpenIGTLink project is primarily supported by the U.S. National Institutes of Health (NIH R01EB020667, PI: Junichi Tokuda). 
 
 ## Contributors
 * [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital (Lead Developer)
@@ -56,12 +58,15 @@ OpenIGTLink is a set of digital messaging formats and rules (protocol) used for 
 * [Robotics and Automation Laboratory, Nagoya Institute of Technology, Japan](http://ral.web.nitech.ac.jp/members.html)
 
 ## Funding Support
-* [NIH 5R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions](http://www.ncigt.org/pages/Collaborations/Enabling_Technologies_for_MRI-Guided_Prostate_Interventions_R01-CA111288) (PI: Clare M. Tempany)
+### Active
+* NIH R01EB020667: OpenIGTLink: a network communication interface for closed-loop image-guided interventions (PI: Junichi Tokuda]
+* [NIH R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions](http://www.ncigt.org/pages/Collaborations/Enabling_Technologies_for_MRI-Guided_Prostate_Interventions_R01-CA111288) (PI: Clare M. Tempany)
+* [NIH P41EB015898: National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/) (PI: Ferenc A. Jolesz / Clare M. Tempany)
+
+### Completed
 * NIH 5R01CA138586: A New Method for Improved Targeting in Image-Guided Abdominal Interventions (PI: Nobuhiko Hata)
-* [National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/) (PI: Ferenc A. Jolesz / Clare M. Tempany)
 * [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/) (PI: Ron Kikinis)
 * Intelligent Surgical Instrument Project sponsored by The Ministry of International Trade and Industry, Japan (PI: Makoto Hashizume)
-
 
 ## Publications
 1. Tokuda J, Fischer GS, Papademetris X, Yaniv Z, Ibanez L, Cheng P, Liu H, Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G, Tempany CM, Hata N. [OpenIGTLink: an open network protocol for image-guided therapy environment](http://www.spl.harvard.edu/publications/item/view/1709). [Int J Med Robot](http://www3.interscience.wiley.com/journal/112094293/home). 2009 Dec;5(4):423-34.

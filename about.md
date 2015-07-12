@@ -58,8 +58,9 @@ The OpenIGTLink project is primarily supported by the U.S. National Institutes o
 * [Robotics and Automation Laboratory, Nagoya Institute of Technology, Japan](http://ral.web.nitech.ac.jp/members.html)
 
 ## Funding Support
+
 ### Active
-* NIH R01EB020667: OpenIGTLink: a network communication interface for closed-loop image-guided interventions (PI: Junichi Tokuda]
+* [NIH R01EB020667: OpenIGTLink: a network communication interface for closed-loop image-guided interventions](http://projectreporter.nih.gov/project_info_details.cfm?aid=8944250&icde=25344808&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC) (PI: Junichi Tokuda)
 * [NIH R01CA111288: Enabling Technologies for MRI-Guided Prostate Interventions](http://www.ncigt.org/pages/Collaborations/Enabling_Technologies_for_MRI-Guided_Prostate_Interventions_R01-CA111288) (PI: Clare M. Tempany)
 * [NIH P41EB015898: National Center for Image-Guided Therapy (NCIGT)](http://www.ncigt.org/) (PI: Ferenc A. Jolesz / Clare M. Tempany)
 

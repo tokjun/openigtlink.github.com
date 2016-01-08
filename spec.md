@@ -7,6 +7,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
+*We launched discussion on extended protocol. Please visit [Version 3 Proposal page](protocols/v3_proposal.html).*
+
 ## OpenIGTLink Version 2 Summary
 * The header format will not be changed. 
 * Simple querying mechanism is defined. See [querying mechanism in version 2](protocols/v2_query.html).

@@ -104,8 +104,13 @@ group: navigation
 </div>
 
 
+
 ## OpenIGTLink Library (C/C++)
-[![Build Status](https://travis-ci.org/openigtlink/OpenIGTLink.svg?branch=master)](https://travis-ci.org/openigtlink/OpenIGTLink)
+
+### Current build status
+
+|Windows build:   |[![Build status](https://ci.appveyor.com/api/projects/status/beo8cej2nxu55ex0/branch/master?svg=true)](https://ci.appveyor.com/project/openigtlink/openigtlink/branch/master)|
+|Linux/Mac build: |[![Build Status](https://travis-ci.org/openigtlink/OpenIGTLink.svg?branch=master)](https://travis-ci.org/openigtlink/OpenIGTLink)|
 
 ### Introduction
 A free open-source C/C++ OpenIGTLink library is available for your software development. It provides an easy-to-use 

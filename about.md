@@ -32,6 +32,7 @@ The OpenIGTLink project is primarily supported by the U.S. National Institutes o
 * [Andras Lasso, Ph.D.](http://perk.cs.queensu.ca/profiles/lasso), Queen's University, Canada
 * [Gregory S. Fischer, Ph.D.](http://aimlab.wpi.edu/people/Gregory_Fischer), Worcester Polytechnic Institute
 * [Matt Clarkson, Ph.D.](http://cmic.cs.ucl.ac.uk/), Centre For Medical Image Computing, University College London, UK.
+* [Adam Rakin](http://www.imaging.robarts.ca/petergrp/node/113), Unniversity of Western Ontario / Roberts Research Institute, Canada
 * [Sebastian Tauscher, M.Sc.](http://www.imes.uni-hannover.de/11.html?&L=1&tx_tkinstpersonen_pi1%5Balias%5D=tauscher&cHash=87be8789251f292d9707429a8782d013), Institut f&uuml;r Mechatronische Systeme, Leibniz Universit&auml;t Hannover
 * [Laurent Chauvin, M.S.](http://www.spl.harvard.edu/pages/People/lchauvin), Brigham and Women's Hospital
 * [Luis Ib&aacute;&ntilde;ez, Ph.D.](http://www.kitware.com/profile/team/ibanez.html), Kitware, Inc.

@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Specification > Version 2 Index
-header: Pages
-weight: 2
-group: navigation
+description: ""
 ---
+
 {% include JB/setup %}
 
 ## Protocol Documentations

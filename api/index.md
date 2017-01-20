@@ -12,4 +12,4 @@ description: ""
 - [Release 2.0](/api/v2.0/index.html)
 
 ### Version 3.0
-- [Release 3.0](/api/v3.0/index.html)
+[AUTO]: <> (DO NOT CHANGE THIS LINE. The release script will add a release log here.)

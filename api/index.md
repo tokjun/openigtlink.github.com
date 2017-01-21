@@ -10,6 +10,7 @@ description: ""
 
 ### Version 2.0
 - [Release 2.0](/api/v2.0/index.html)
+[AUTO_VER2]: <> (DO NOT CHANGE THIS LINE. The release script will add a release log here.)
 
 ### Version 3.0
-[AUTO]: <> (DO NOT CHANGE THIS LINE. The release script will add a release log here.)
+[AUTO_VER3]: <> (DO NOT CHANGE THIS LINE. The release script will add a release log here.)

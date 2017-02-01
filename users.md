@@ -1,10 +1,13 @@
 ---
 layout: page
-title: Software 
-header: Pages
-weight: 4
+title: For Users
+group: navigation
+order: 2
+description: ""
 ---
 {% include JB/setup %}
+
+There are several software packages that comes with OpenIGTLink.
 
 
 ## 3D Slicer
@@ -36,5 +39,8 @@ The Image-Guided Surgery Toolkit is a high-level, component-based framework whic
 The cornerstone of IGSTK is robustness. IGSTK provides the following high-level functionality: the ability to read and display medical images, including CT and MRI in DICOM format; an interface to common tracking hardware (e.g., AURORA from NDI); GUI and visualization capabilities, including four-quadrant view (axial, sagittal, coronal, and 3D) and multi-slice axial view (from 1 x 1 to many by many, such as 10 x 10); point-based registration and a means for selecting these points; and robust common internal software services for logging, exception-handling and problem resolution.
 
 IGSTK has an OpenIGTLink interface providing connectivity with other OpenIGTLink-compatible software. See [IGSTK Book](http://igstk.org/IGSTK/img/IGSTKTheBookV2.pdf) for more detail.
+
+
+
 
 

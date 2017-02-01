@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Tutorials
-group: navigation
 weight: 5
 description: ""
 ---

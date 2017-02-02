@@ -7,7 +7,7 @@ order: 4
 {% include JB/setup %}
 
 Online tutorials for users and develoers are made available by application
-developers. Please visit the website linked below for the detail and materials. 
+developers. Please visit the websites linked below for the detail.
 
 --------------------------------------------------------------------------------
 

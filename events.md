@@ -2,7 +2,7 @@
 layout: page
 title: Events
 group: navigation
-order: 4
+order: 5
 description: ""
 ---
 {% include JB/setup %}
@@ -26,7 +26,7 @@ See [Release Log](releaselog.html) for release information.
   * [3D Slicer + ROS Integration using OpenIGTLink](http://wiki.na-mic.org/Wiki/index.php/2016_Winter_Project_Week/Projects/SlicerROSIntegration)
   * [Tracked ULtrasound Standardization](http://wiki.na-mic.org/Wiki/index.php/2016_Winter_Project_Week/Projects/TrackedUltrasoundStandardization)
 
-## 2015
+### 2015
 * May 30, 2015 - [ICRA 2015 Workshop "Shared Frameworks for Medical Robotics Research", Seattle, WA](http://research.intusurg.com/workshops/icra-2015/)
 * October 5, 2015 - [MICCAI 2015 Tutorial "Navigation of Interventional and Surgical Devices Using Open-Source Software", Munich, Germany](http://www.slicerigt.org/wp/miccai-2015-tutorial/)
 

@@ -10,7 +10,7 @@ description: ""
 
 The OpenIGTLink Library is open-source software, and we welcome your feedbacks,
 feature requests, and patches. There are several ways to contribute to the project.
-Please refer to [How to Contribute](library/contribute).
+Please refer to [How to Contribute](/library/contribute).
 
 
 If you have questions regarding the project or potential collaborations,

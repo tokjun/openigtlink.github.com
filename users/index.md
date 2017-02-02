@@ -10,7 +10,7 @@ description: ""
 OpenIGTLink is a network communication interface that allows real-time data
 sharing among computers and devices connected to the local area network in the
 procedure room. This page lists application software packages that come with the
-OpenIGTLink interface. [The Tutorial page](tutorials) offers links to on-line
+OpenIGTLink interface. [The Tutorial page](/tutorials/) offers links to on-line
 tutorials, where you can learn how to use OpenIGTLink in different software packages.
 
 --------------------------------------------------------------------------------

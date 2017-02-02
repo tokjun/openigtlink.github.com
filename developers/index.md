@@ -101,7 +101,7 @@ Participate Project Weeks
 There have been groups of people who organize small projects related to OpenIGTLink
 at biannual [Project Week] hosted by National Alliance for Medical Image Computing.
 Project Week is a hack-a-thon event focused on development of software platforms for
-medical image computing and computer assisted intervention. Please check [Event](events)
+medical image computing and computer assisted intervention. Please check [Event](/events/)
 page or contact [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda) for the future projects.
 
 

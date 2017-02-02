@@ -7,9 +7,6 @@ description: ""
 ---
 {% include JB/setup %}
 
-## Protocol Specifications
-
-See [Protocol Specification Page](spec) for detail.
 
 The OpenIGTLink protocol defines a set of message formats for several data types
 that are frequently used for image-guided and robot-assisted interventions.
@@ -18,7 +15,19 @@ to another over the local area network. The application developers can choose
 their own transportation layer that fits for their application and environment
 (e.g. TCP, UDP, WebSocket).
 
-## Libraries
+
+--------------------------------------------------------------------------------
+
+Protocol Specifications
+=======================
+
+See [Protocol Specification Page](spec) for detail.
+
+
+--------------------------------------------------------------------------------
+
+Software Development Kits (SDKs)
+================================
 
 To use OpenIGTLink in your software application, you need to either:
 1) implement serialization/de-serialization of messages by your self, or
@@ -26,7 +35,8 @@ To use OpenIGTLink in your software application, you need to either:
 as free open-source software.
 
 
-### C/C++
+C/C++
+-----
 
 See [OpenIGTLink C/C++ Library Page](cpplib) for detail.
 
@@ -39,7 +49,8 @@ multi-platform strategies will lead to the widespread use of OpenIGTLink, and
 ultimately help to establish the interoperability among a wide variety of
 components developed by different groups and companies in the community.
 
-### Java
+Java
+----
 
 AIM Lab at Worcester Polytechnic Institute is providing Java implementation of
 OpenIGTLink library as free open-source software. Please visit:
@@ -50,15 +61,16 @@ OpenIGTLink library as free open-source software. Please visit:
 for more detail.
 
 
-### Other Languages
+Other Languages
+---------------
 
 There is no official implementation of OpenIGTLink interface in other language.
 However, developers can use OpenIGTLink from the Python environment on 3D Slicer.
 See [3D Slicer OpenIGTLinkIF Developers' information](https://www.slicer.org/wiki/Documentation/Nightly/Developers/OpenIGTLinkIF).
 
 
-
-## Development and Maintenance
+Development and Maintenance
+===========================
 
 The OpenIGTLink protocol is developed and maintained at by the OpenIGTLink
 community hosted at National Center for Image Guided Therapy, Brigham and Women's Hospital.
@@ -66,7 +78,8 @@ OpenIGTLink protocol is an open-source project; anyone is welcome to join the de
 
 The project is hosted at GitHub. There are several ways to participate the project:
 
-### Report Bugs / Request Features
+Report Bugs / Request Features
+------------------------------
 
 If you find any issues or have feature request, please feel free to post to Issues in
 [GitHub Issues](https://github.com/openigtlink/OpenIGTLink/issues).
@@ -75,13 +88,15 @@ As for feature requests, please note that we may not incorporate requested featu
 into the protocol, in order to maintain the compatibility of the protocol
 with existing software/hardware. 
 
-### Contribute Patches
+Contribute Patches
+------------------
 
 The OpenIGTLink community is adapted to the collaborative development model on GitHub.
 [GitHub's instruction](https://help.github.com/articles/about-collaborative-development-models/)
 provides a very nice overview of collaborative development models and workflows.
 
-### Participate Project Weeks
+Participate Project Weeks
+-------------------------
 
 There have been groups of people who organize small projects related to OpenIGTLink
 at biannual [Project Week] hosted by National Alliance for Medical Image Computing.

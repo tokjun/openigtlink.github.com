@@ -6,7 +6,6 @@ order: 1
 ---
 {% include JB/setup %}
 
-## Introduction
 OpenIGTLink is an open-source network communication interface specifically
 designed for image-guided interventions. It aims to provide a plug-and-play
 unified real-time communications (URTC) in operating rooms (ORs) for image-guided
@@ -24,7 +23,14 @@ hence OpenIGTLink is suitable for both industrial and academic developers. We al
 a reference implementation of the protocol as a [C/C++ library](sdk).
 
 
-## Acknowledgement
+License
+=======
+
+[The specification of the OpenIGTLink protocol](spec) and [it's reference C/C++ implementation](https://github.com/openigtlink/OpenIGTLink.git) are both provided to the public under [the new BSD License](http://www.opensource.org/licenses/BSD-3-Clause). Unlike some other open-source licenses, it does not require that source code be distributed at all.
+
+
+Acknowledgement
+===============
 
 The OpenIGTLink project is primarily supported by the U.S. National Institutes of Health (NIH R01EB020667, PI: Junichi Tokuda).
 There are also several research projects that are supporting the development of OpenIGTLink including:
@@ -36,7 +42,8 @@ There are also several research projects that are supporting the development of 
 * [National Alliance for Medical Image Computing (NA-MIC)](http://www.na-mic.org/) (PI: Ron Kikinis)
 * Intelligent Surgical Instrument Project sponsored by The Ministry of International Trade and Industry, Japan (PI: Makoto Hashizume)
 
-## Contributors
+Contributors
+============
 
 * [Junichi Tokuda, Ph.D.](http://www.spl.harvard.edu/pages/People/tokuda), Brigham and Women's Hospital (Lead Developer)
 * [Nobuhiko Hata, Ph.D.](http://www.spl.harvard.edu/pages/People/noby), Brigham and Women's Hospital

@@ -14,7 +14,9 @@ Please refer to [How to Contribute](library/contribute).
 
 
 If you have questions regarding the project or potential collaborations,
-please feel free to contact Junichi Tokuda (E-mail: tokuda at bwh.harvard.edu),
-Department of Radiology, Brigham and Women's Hospital.
+please feel free to contact:
+
+
+- [Junichi Tokuda](http://www.spl.harvard.edu/pages/People/tokuda), Department of Radiology, Brigham and Women's Hospital.
 
 
